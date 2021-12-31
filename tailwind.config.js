@@ -1,10 +1,8 @@
 // ./tailwind.config.js
-// const colors = require("tailwindcss/colors");
 module.exports = {
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   // placeholderColor: (theme) => theme("colors"),
-
-  darkMode: false,
+  //  darkMode: false,
 
   theme: {
     screens: {
@@ -12,7 +10,8 @@ module.exports = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-      "2xl": "1440px",
+      "2xl": "1366px",
+      "3xl": "1440px",
     },
     colors: {
       primary: {
@@ -75,18 +74,8 @@ module.exports = {
         800: "#11635c",
         900: "#0e514b",
       },
-      blue: {
-        50: "#f3f8fe",
-        100: "#e8f1fe",
-        200: "#c5ddfc",
-        300: "#a3c9fa",
-        400: "#5da0f6",
-        DEFAULT: "#1877F2",
-        600: "#166bda",
-        700: "#1259b6",
-        800: "#0e4791",
-        900: "#0c3a77",
-      },
+      blue: { DEFAULT: '#1877F2', 50: "#f3f8fe", 100: "#e8f1fe", 200: "#c5ddfc", 300: "#a3c9fa", 400: "#5da0f6", 500: "#1877F2", 600: "#166bda", 700: "#1259b6", 800: "#0e4791", 900: "#0c3a77", },
+      white: { DEFAULT: '#FFFFFF', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFFFFF', '300': '#FFFFFF', '400': '#FFFFFF', '500': '#FFFFFF', '600': '#E3E3E3', '700': '#C7C7C7', '800': '#ABABAB', '900': '#8F8F8F' },
     },
     fontSize: {
       xs: ["12px", "30px"],
