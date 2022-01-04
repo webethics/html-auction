@@ -19,14 +19,92 @@
 header nav ul li.active a {
      color: #DB6400;
 }
-
-
 /* Header Css Ends Here */
+/* Banner Css Starts Here */
+.banner-art {
+     z-index: -1;
+}
+/* Banner Css Ends Here */
+
+/* Featured Services Css Starts Here */
+.feature-services .fs-img-wrap {
+     width: 100px;
+     height: 100px;
+     background: -webkit-linear-gradient(143.81deg, #1DA599 16.67%, #23BE6A 113.15%);
+     background: -moz-linear-gradient(143.81deg, #1DA599 16.67%, #23BE6A 113.15%);
+     background: -ms-linear-gradient(143.81deg, #1DA599 16.67%, #23BE6A 113.15%);
+     background: -o-linear-gradient(143.81deg, #1DA599 16.67%, #23BE6A 113.15%);
+     background: linear-gradient(143.81deg, #1DA599 16.67%, #23BE6A 113.15%);
+}
+.feature-services .fs-arrow {
+     width: 50px;
+     height: 50px;
+     right: 36px;
+     bottom: 24px;
+     z-index: 9;
+}
+/* Featured Services Css Ends Here */
+/* Become Pro Css Starts Here */
+.become-pro .container {
+     background: rgba(255, 195, 107, 0.24);
+}
+/* Become Pro Css Ends Here */
+
+/* Work  Css Starts Here */
+/* .work-post-img {bottom: 80px;} */
+.how-it-works .work-counter {
+     left: -20px;
+}
+/* Work  Css Ends Here */
+.services-wrap {
+     min-height: 580px;
+}
+.services-meta-wrap {
+     background-color: rgba(0,0,0,0.64);
+}
+
 
 
 /* Media Queries */
+@media screen and (min-width: 1280px) {
+     .how-it-works .container,
+     .become-pro .container {
+          max-width: 1200px;
+     }
+}
+@media screen and (max-width: 1366px) {
+     .services-wrap {
+          min-height: 480px;
+     }
+}
 @media screen and (max-width: 1280px) {
      .header-logo {
           height: 61px;
+     }
+     .services-wrap {
+          min-height: 380px;
+     }
+}
+@media screen and (max-width: 1024px) {
+     header nav {
+          top: 100%;
+          z-index: 999999;
+          left: 0;
+          right: 0;
+          margin: auto;
+     }
+     .feature-services .fs-img-wrap {
+          width: 75px;
+          height: 75px;
+     }
+     .feature-services .fs-arrow {
+          width: 40px;
+          height: 40px;
+          right: 16px;
+     }
+}
+@media screen and (max-width: 640px) {
+     .services-wrap {
+          min-height: 280px;
      }
 }

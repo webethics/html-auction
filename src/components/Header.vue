@@ -122,19 +122,19 @@
   <!-- For md screen size -->
 
   <!-- For large screens -->
-  <header class="bg-white px-4 py-4 2xl:py-7 shadow-xl">
-    <div class="container mx-auto flex items-center justify-between">
+  <header class="bg-white py-4 2xl:py-7 shadow-xl relative">
+    <div class="container mx-auto flex items-center justify-between px-5">
       <figure class="header-logo">
         <img src="../assets/images/logo.png" />
       </figure>
-      <nav>
+      <nav class="hidden lg:block absolute lg:relative bg-white">
         <ul
           class="
-            hidden
-            md:flex
+            flex flex-col
+            lg:flex-row
             items-center
-            space-x-5
-            md:space-x-6
+            space-x-0
+            lg:space-x-6
             xl:space-x-10
             3xl:space-x-16
           "
@@ -147,8 +147,8 @@
                 text-sm
                 lg:text-base
                 2xl:text-lg
-                text-gray-800
-                focus:outline-none focus:ring-2 focus:ring-gray-800
+                text-black
+                focus:outline-none
                 hover:text-primary
               "
               >Home</a
@@ -162,8 +162,8 @@
                 text-sm
                 lg:text-base
                 2xl:text-lg
-                text-gray-800
-                focus:outline-none focus:ring-2 focus:ring-gray-800
+                text-black
+                focus:outline-none
                 hover:text-primary
               "
               >About</a
@@ -177,8 +177,8 @@
                 text-sm
                 lg:text-base
                 2xl:text-lg
-                text-gray-800
-                focus:outline-none focus:ring-2 focus:ring-gray-800
+                text-black
+                focus:outline-none
                 hover:text-primary
               "
               >Services</a
@@ -192,8 +192,8 @@
                 text-sm
                 lg:text-base
                 2xl:text-lg
-                text-gray-800
-                focus:outline-none focus:ring-2 focus:ring-gray-800
+                text-black
+                focus:outline-none
                 hover:text-primary
               "
               >Testimonials</a
@@ -207,8 +207,8 @@
                 text-sm
                 lg:text-base
                 2xl:text-lg
-                text-gray-800
-                focus:outline-none focus:ring-2 focus:ring-gray-800
+                text-black
+                focus:outline-none
                 hover:text-primary
               "
               >Contact</a
@@ -241,13 +241,13 @@
             "
           >
             <img
-              class="mr-2"
+              class="mr-0 sm:mr-2"
               v-bind:src="require('../assets/images/user.svg')"
             />
-            Login
+            <span class="hidden sm:block">Login</span>
           </a>
         </div>
-        <div class="hidden lg:flex items-center">
+        <div class="hidden sm:flex items-center">
           <button
             class="
               p-3

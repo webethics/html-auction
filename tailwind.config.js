@@ -74,23 +74,26 @@ module.exports = {
         800: "#11635c",
         900: "#0e514b",
       },
-      blue: { DEFAULT: '#1877F2', 50: "#f3f8fe", 100: "#e8f1fe", 200: "#c5ddfc", 300: "#a3c9fa", 400: "#5da0f6", 500: "#1877F2", 600: "#166bda", 700: "#1259b6", 800: "#0e4791", 900: "#0c3a77", },
+      blue: { DEFAULT: '#1877F2', 50: "#f3f8fe", 100: "#e8f1fe", 200: "#c5ddfc", 300: "#a3c9fa", 400: "#5da0f6", 500: "#1877F2", 600: "#166bda", 700: "#1259b6", 800: "#0e4791", 900: "#0c3a77" },
       white: { DEFAULT: '#FFFFFF', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFFFFF', '300': '#FFFFFF', '400': '#FFFFFF', '500': '#FFFFFF', '600': '#E3E3E3', '700': '#C7C7C7', '800': '#ABABAB', '900': '#8F8F8F' },
+      gray: { DEFAULT: '#EFEFEF', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFFFFF', '300': '#FFFFFF', '400': '#FFFFFF', '500': '#EFEFEF', '600': '#D3D3D3', '700': '#B7B7B7', '800': '#9B9B9B', '900': '#7F7F7F' },
+      yellow: { DEFAULT: '#FFC36B', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFF5E5', '300': '#FFE4BD', '400': '#FFD494', '500': '#FFC36B', '600': '#FFAC33', '700': '#FA9500', '800': '#C27300', '900': '#8A5200' },
     },
     fontSize: {
       xs: ["12px", "30px"],
       sm: ["14px", "30px"],
-      base: ["16px", "30px"],
+      base: ["16px", "22px"],
       lg: ["18px", "30px"],
       xl: ["20px", "30px"],
       "2xl": ["22px", "30px"],
       one: ["86px", "105px"],
-      two: ["63px", "105px"],
+      two: ["63px", "72px"],
       three: ["50px", "60px"],
       four: ["42px", "48px"],
       five: ["36px", "42px"],
-      six: ["24px", "30px"],
+      six: ["24px", "36px"],
       seven: ["20px", "24px"],
+      counter: ["96px", "100px"]
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
@@ -107,6 +110,9 @@ module.exports = {
       none: "0",
       DEFAULT: "8px",
     },
+    boxShadow: {
+      '3xl': '0px 60.2457px 48.1966px rgba(56, 56, 56, 0.1), 0px 39.0482px 28.2262px rgba(56, 56, 56, 0.0759259), 0px 23.2058px 15.3515px rgba(56, 56, 56, 0.0607407), 0px 12.0491px 7.83195px rgba(56, 56, 56, 0.05), 0px 4.90891px 3.92713px rgba(56, 56, 56, 0.0392593), 0px 1.11566px 1.89663px rgba(56, 56, 56, 0.0240741);',
+    },
 
     // placeholderColor: {
     //   primary: themes("colors.primary.100"),
@@ -114,6 +120,10 @@ module.exports = {
 
     backgroundImage: {
       "hero-pattern": "url('assets/images/hero_gradient.png')",
+      "featured-services": "url('assets/images/featured_services.jpg')",
+      "plumber": "url('assets/images/plumber.jpg')",
+      "contractor": "url('assets/images/contractor.jpg')",
+      "realtor": "url('assets/images/realtor.jpg')",
     },
   },
 
