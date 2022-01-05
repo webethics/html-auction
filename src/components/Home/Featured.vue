@@ -60,6 +60,7 @@
             md:text-left
             w-full
             relative
+            featured-column
           "
         >
           <div
@@ -76,7 +77,13 @@
             <img
               src="../../assets/images/emergency-services.svg"
               alt=""
-              class="mx-auto h-100"
+              class="
+                mx-auto
+                h-100
+                transition-transform
+                duration-500
+                ease-in-out
+              "
             />
           </div>
           <h3
@@ -89,14 +96,18 @@
               lg:mt-10
               mb-2
               lg:mb-6
+              fs-title
+              transition
+              duration-500
+              ease-in-out
+              cursor-pointer
             "
           >
-            Apply with your home
+            <a href=""> Apply with your home</a>
           </h3>
           <p class="text-sm sm:text-base lg:text-lg mt-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-          <!-- <p class="flex justify-center md:justify-end mt-4 absolute"> -->
           <a
             href="#"
             class="
@@ -111,10 +122,28 @@
               md:ml-0
               mt-5
               md:mt-0
+              cursor-pointer
+              duration-500
+              ease-in-out
+              transition
             "
-            ><img src="../../assets/images/fs-arrow.svg" alt=""
-          /></a>
-          <!-- </p> -->
+          >
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.6699 12.5022L3.49856 12.5022M14.6033 5.43555L21.6699 12.5022L14.6033 5.43555ZM21.6699 12.5022L14.6033 19.5688L21.6699 12.5022Z"
+                stroke="#313131"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
         </div>
 
         <div
@@ -132,6 +161,7 @@
             md:text-left
             w-full
             relative
+            featured-column
           "
         >
           <div
@@ -148,7 +178,13 @@
             <img
               src="../../assets/images/long-term-project.svg"
               alt=""
-              class="mx-auto h-100"
+              class="
+                mx-auto
+                h-100
+                transition-transform
+                duration-500
+                ease-in-out
+              "
             />
           </div>
           <h3
@@ -161,9 +197,14 @@
               lg:mt-10
               mb-2
               lg:mb-6
+              fs-title
+              transition
+              duration-500
+              ease-in-out
+              cursor-pointer
             "
           >
-            Complete the form
+            <a href=""> Complete the form</a>
           </h3>
           <p class="text-sm sm:text-base lg:text-lg mt-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -182,10 +223,30 @@
               md:ml-0
               mt-5
               md:mt-0
+              cursor-pointer
+              duration-500
+              ease-in-out
+              transition
             "
-            ><img src="../../assets/images/fs-arrow.svg" alt=""
-          /></a>
+          >
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.6699 12.5022L3.49856 12.5022M14.6033 5.43555L21.6699 12.5022L14.6033 5.43555ZM21.6699 12.5022L14.6033 19.5688L21.6699 12.5022Z"
+                stroke="#313131"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
         </div>
+
         <div
           class="
             bg-white
@@ -201,6 +262,7 @@
             md:text-left
             w-full
             relative
+            featured-column
           "
         >
           <div
@@ -217,7 +279,13 @@
             <img
               src="../../assets/images/small-business.svg"
               alt=""
-              class="mx-auto h-100"
+              class="
+                mx-auto
+                h-100
+                transition-transform
+                duration-500
+                ease-in-out
+              "
             />
           </div>
           <h3
@@ -230,9 +298,14 @@
               lg:mt-10
               mb-2
               lg:mb-6
+              fs-title
+              transition
+              duration-500
+              ease-in-out
+              cursor-pointer
             "
           >
-            Choose the fair rate
+            <a href=""> Choose the fair rate</a>
           </h3>
           <p class="text-sm sm:text-base lg:text-lg mt-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -251,9 +324,28 @@
               md:ml-0
               mt-5
               md:mt-0
+              cursor-pointer
+              duration-500
+              ease-in-out
+              transition
             "
-            ><img src="../../assets/images/fs-arrow.svg" alt=""
-          /></a>
+          >
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21.6699 12.5022L3.49856 12.5022M14.6033 5.43555L21.6699 12.5022L14.6033 5.43555ZM21.6699 12.5022L14.6033 19.5688L21.6699 12.5022Z"
+                stroke="#313131"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
         </div>
       </div>
       <div class="flex justify-center md:justify-end mt-8">
@@ -269,6 +361,9 @@
             rounded-sm
             shadow-3xl
             uppercase
+            hover:bg-green
+            duration-500
+            ease-in-out
           "
         >
           see all

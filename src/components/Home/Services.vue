@@ -20,11 +20,20 @@
             md:text-left
             w-full
             relative
-            bg-plumber bg-cover bg-bottom
             mb-5
             md:mb-0
+            overflow-hidden
           "
         >
+          <div
+            class="
+              services-img
+              bg-plumber bg-cover bg-bottom
+              transition
+              duration-500
+              ease-in-out
+            "
+          ></div>
           <div
             class="
               services-meta-wrap
@@ -54,7 +63,7 @@
                 text-white
               "
             >
-              Plumber
+              <a href="#"> Plumber</a>
             </h3>
             <p class="text-sm sm:text-base lg:text-lg text-white">
               Only pay when you agree
@@ -70,9 +79,18 @@
             md:text-left
             w-full
             relative
-            bg-contractor bg-cover bg-bottom
+            overflow-hidden
           "
         >
+          <div
+            class="
+              services-img
+              bg-contractor bg-cover bg-bottom
+              transition
+              duration-500
+              ease-in-out
+            "
+          ></div>
           <div
             class="
               services-meta-wrap
@@ -102,7 +120,7 @@
                 text-white
               "
             >
-              Contractor
+              <a href="#"> Contractor</a>
             </h3>
             <p class="text-sm sm:text-base lg:text-lg text-white">
               Pick your price
@@ -131,9 +149,18 @@
             md:text-left
             w-full
             relative
-            bg-realtor bg-cover bg-bottom
+            overflow-hidden
           "
         >
+          <div
+            class="
+              services-img
+              bg-realtor bg-cover bg-bottom
+              transition
+              duration-500
+              ease-in-out
+            "
+          ></div>
           <div
             class="
               services-meta-wrap
@@ -163,7 +190,7 @@
                 text-white
               "
             >
-              Realtor
+              <a href="#">Realtor</a>
             </h3>
             <p class="text-sm sm:text-base lg:text-lg text-white">
               Refunded costs if unsatisfied
@@ -186,6 +213,9 @@
             shadow-sm
             uppercase
             shadow-3xl
+            hover:bg-green
+            duration-500
+            ease-in-out
           "
         >
           see all

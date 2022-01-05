@@ -80,7 +80,7 @@ module.exports = {
       yellow: { DEFAULT: '#FFC36B', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFF5E5', '300': '#FFE4BD', '400': '#FFD494', '500': '#FFC36B', '600': '#FFAC33', '700': '#FA9500', '800': '#C27300', '900': '#8A5200' },
     },
     fontSize: {
-      xs: ["12px", "30px"],
+      xs: ["12px", "18px"],
       sm: ["14px", "30px"],
       base: ["16px", "22px"],
       lg: ["18px", "30px"],
@@ -111,12 +111,12 @@ module.exports = {
       DEFAULT: "8px",
     },
     boxShadow: {
+      'xl': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
       '3xl': '0px 60.2457px 48.1966px rgba(56, 56, 56, 0.1), 0px 39.0482px 28.2262px rgba(56, 56, 56, 0.0759259), 0px 23.2058px 15.3515px rgba(56, 56, 56, 0.0607407), 0px 12.0491px 7.83195px rgba(56, 56, 56, 0.05), 0px 4.90891px 3.92713px rgba(56, 56, 56, 0.0392593), 0px 1.11566px 1.89663px rgba(56, 56, 56, 0.0240741);',
     },
-
-    // placeholderColor: {
-    //   primary: themes("colors.primary.100"),
-    // },
+    placeholderColor: {
+      blackLight: 'rgba(0,0,0,0.5)',
+    },
 
     backgroundImage: {
       "hero-pattern": "url('assets/images/hero_gradient.png')",

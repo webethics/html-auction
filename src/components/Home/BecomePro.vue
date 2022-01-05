@@ -68,6 +68,9 @@
               rounded-sm
               shadow-3xl
               uppercase
+              hover:bg-green
+              duration-500
+              ease-in-out
             "
           >
             learn more

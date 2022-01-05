@@ -10,6 +10,10 @@
           text-center
           max-w-3xl
           mx-auto
+          pb-8
+          sm:pb-12
+          lg:pb-20
+          3xl:pb-24
         "
       >
         <h2
@@ -69,9 +73,7 @@
               text-green
               font-bold
               absolute
-              top-0
-              bottom-0
-              m-auto
+              left-0
               flex
               items-center
               work-counter
@@ -82,9 +84,8 @@
           <img
             src="../../assets/images/create-post.svg"
             alt=""
-            class="absolute bottom-0 right-12 mx-auto"
+            class="how-images w-full"
           />
-          <img src="../../assets/images/half-circle.svg" alt="" />
         </div>
 
         <div class="w-full md:w-1/2 flex flex-col">
@@ -97,7 +98,8 @@
               work-title
               font-semibold
               text-black text-center
-              md:text-left
+              md:text-left md:pt-16
+              lg:pt-24
             "
           >
             Create a post for a service
@@ -127,7 +129,8 @@
               work-title
               font-semibold
               text-black text-center
-              md:text-left
+              md:text-left md:pt-16
+              lg:pt-24
             "
           >
             Professionals will BidAgree & quote on your post
@@ -153,9 +156,6 @@
               text-green
               font-bold
               absolute
-              top-0
-              bottom-0
-              m-auto
               flex
               items-center
               work-counter
@@ -166,9 +166,8 @@
           <img
             src="../../assets/images/man.svg"
             alt=""
-            class="absolute bottom-0 left-0 right-0 mx-auto work-post-img"
+            class="how-images w-full"
           />
-          <img src="../../assets/images/half-circle.svg" alt="" />
         </div>
       </div>
 
@@ -204,9 +203,6 @@
               text-green
               font-bold
               absolute
-              top-0
-              bottom-0
-              m-auto
               flex
               items-center
               work-counter
@@ -217,9 +213,8 @@
           <img
             src="../../assets/images/speaker.svg"
             alt=""
-            class="absolute bottom-0 left-0 right-0 mx-auto work-post-img"
+            class="how-images w-full"
           />
-          <img src="../../assets/images/half-circle.svg" alt="" />
         </div>
         <div class="w-full md:w-1/2 flex flex-col">
           <h2
@@ -231,7 +226,8 @@
               work-title
               font-semibold
               text-black text-center
-              md:text-left
+              md:text-left md:pt-16
+              lg:pt-24
             "
           >
             Promote your favorites and accept only the best offer
@@ -262,7 +258,8 @@
               work-title
               font-semibold
               text-black text-center
-              md:text-left
+              md:text-left md:pt-16
+              lg:pt-24
             "
           >
             We share up to 100% of our earnings with you; for every accepted
@@ -289,9 +286,6 @@
               text-green
               font-bold
               absolute
-              top-0
-              bottom-0
-              m-auto
               flex
               items-center
               work-counter
@@ -302,9 +296,8 @@
           <img
             src="../../assets/images/dollar.svg"
             alt=""
-            class="absolute bottom-0 left-0 right-0 mx-auto work-post-img"
+            class="how-images w-full"
           />
-          <img src="../../assets/images/half-circle.svg" alt="" />
         </div>
       </div>
 

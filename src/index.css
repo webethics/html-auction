@@ -5,7 +5,6 @@
 @tailwind utilities;
 
 /* Common Code Starts Here */
-
 /* Common Code Ends Here */
 
 /* Header Css Starts Here */
@@ -19,6 +18,7 @@
 header nav ul li.active a {
      color: #DB6400;
 }
+.account-labels a:hover svg path {fill:#DB6400;}
 /* Header Css Ends Here */
 /* Banner Css Starts Here */
 .banner-art {
@@ -44,6 +44,7 @@ header nav ul li.active a {
      z-index: 9;
 }
 /* Featured Services Css Ends Here */
+
 /* Become Pro Css Starts Here */
 .become-pro .container {
      background: rgba(255, 195, 107, 0.24);
@@ -51,38 +52,75 @@ header nav ul li.active a {
 /* Become Pro Css Ends Here */
 
 /* Work  Css Starts Here */
-/* .work-post-img {bottom: 80px;} */
 .how-it-works .work-counter {
-     left: -20px;
+     left: -25px;
+     top: 130px;
 }
 /* Work  Css Ends Here */
-.services-wrap {
+.services-wrap .services-img {
      min-height: 580px;
 }
 .services-meta-wrap {
      background-color: rgba(0,0,0,0.64);
 }
-
-
+.how-images {
+     max-width: 500px;
+     max-height: 500px;
+}
+footer {
+     background-color: #D9F0EE;
+}
+footer .footer-container {border-bottom: 1px solid #C1DCDA;}
+.copyright-menus li,
+.social-icons li {display: inline-block;}
+.copyright-menus li:not(:first-child) {margin-left: 75px;}
+.social-icons li:not(:first-child) {margin-left: 20px;}
+.social-icons li a {width:40px; height: 40px;}
+.social-icons li a svg {margin: auto; height: 38px;}
 
 /* Media Queries */
+@media screen and (min-width: 1024px) {
+     .footer-description {
+          max-width: 400px;
+     }
+}
 @media screen and (min-width: 1280px) {
      .how-it-works .container,
      .become-pro .container {
           max-width: 1200px;
      }
+     footer ul li a:hover {
+          color: #DB6400;
+     }
+     .feature-services .featured-column:hover .fs-img-wrap img {transform:scale(1.2)}
+     .feature-services .featured-column:hover .fs-arrow {background-color:#1DA599; transform: scale(1.05)}
+     .feature-services .featured-column:hover .fs-title {color:#1DA599;}
+     .feature-services .featured-column:hover .fs-arrow svg path {stroke:#ffffff;}
+     .services .services-wrap:hover .services-img {transform: scale(1.1);}
+}
+@media screen and (max-width: 1440px) {
+     .how-it-works .work-counter {
+          left: -15px;
+          top: 140px;
+     }
 }
 @media screen and (max-width: 1366px) {
-     .services-wrap {
+     .services-wrap .services-img {
           min-height: 480px;
+     }
+     .how-it-works .work-counter {
+          left: -5px;
      }
 }
 @media screen and (max-width: 1280px) {
      .header-logo {
           height: 61px;
      }
-     .services-wrap {
+     .services-wrap .services-img {
           min-height: 380px;
+     }
+     .how-it-works .work-counter {
+          left: -20px;
      }
 }
 @media screen and (max-width: 1024px) {
@@ -102,9 +140,36 @@ header nav ul li.active a {
           height: 40px;
           right: 16px;
      }
+     .how-it-works .work-counter {
+          top: 100px;
+     }
+     .social-icons li:not(:first-child) {margin-left: 10px;}
+     .copyright-menus li:not(:first-child) {
+          margin-left: 35px;
+      }
+}
+@media screen and (max-width: 768px) {
+     .how-it-works .work-counter {
+          top: 160px;
+          left: 30px;
+     }
 }
 @media screen and (max-width: 640px) {
-     .services-wrap {
+     .services-wrap .services-img {
           min-height: 280px;
      }
+     .how-it-works .work-counter {
+          left: -10px;
+          top: 85px;
+          right: 0;
+          width: 300px;
+          margin: auto;
+     }
+     .how-images {
+          max-width: 300px;
+          max-height: 300px;
+     }   
+     .vm-wrapper  .vm-content .wrap-inner {
+          padding: 0 20px;
+     }     
 }

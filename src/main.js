@@ -5,10 +5,14 @@ import { store } from './store'
 
 import { ValidationObserver, ValidationProvider, extend } from 'vee-validate';
 import { required, email, integer } from 'vee-validate/dist/rules';
+import '@kouts/vue-modal/dist/vue-modal.css';
+import VueModal from "../node_modules/@kouts/vue-modal";
+import "./assets/scss/app.scss";
+import "../node_modules/animate.css";
 import './index.css'
 
-
 Vue.config.productionTip = false
+Vue.component('vue-modal', VueModal);
 Vue.component('ValidationProvider', ValidationProvider);
 Vue.component('ValidationObserver', ValidationObserver);
 
@@ -32,5 +36,5 @@ extend('integer', {
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
 }).$mount('#app')
