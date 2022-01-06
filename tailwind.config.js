@@ -78,10 +78,12 @@ module.exports = {
       white: { DEFAULT: '#FFFFFF', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFFFFF', '300': '#FFFFFF', '400': '#FFFFFF', '500': '#FFFFFF', '600': '#E3E3E3', '700': '#C7C7C7', '800': '#ABABAB', '900': '#8F8F8F' },
       gray: { DEFAULT: '#EFEFEF', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFFFFF', '300': '#FFFFFF', '400': '#FFFFFF', '500': '#EFEFEF', '600': '#D3D3D3', '700': '#B7B7B7', '800': '#9B9B9B', '900': '#7F7F7F' },
       yellow: { DEFAULT: '#FFC36B', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFF5E5', '300': '#FFE4BD', '400': '#FFD494', '500': '#FFC36B', '600': '#FFAC33', '700': '#FA9500', '800': '#C27300', '900': '#8A5200' },
+      blue: '#DBDBDB',
+      inputBorder: "#E5E5E5"
     },
     fontSize: {
       xs: ["12px", "18px"],
-      sm: ["14px", "30px"],
+      sm: ["14px", "20px"],
       base: ["16px", "22px"],
       lg: ["18px", "30px"],
       xl: ["20px", "30px"],
@@ -93,7 +95,13 @@ module.exports = {
       five: ["36px", "42px"],
       six: ["24px", "36px"],
       seven: ["20px", "24px"],
-      counter: ["96px", "100px"]
+      counter: ["96px", "100px"],
+      small: ["10px", "12px"]
+    },
+    lineHeight: {
+      '30': '30px',
+      '25': '25px',
+      '20': '20px',
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
@@ -111,6 +119,7 @@ module.exports = {
       DEFAULT: "8px",
     },
     boxShadow: {
+      'xs': '0px 2px 3px rgba(0, 0, 0, 0.15)',
       'xl': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
       '3xl': '0px 60.2457px 48.1966px rgba(56, 56, 56, 0.1), 0px 39.0482px 28.2262px rgba(56, 56, 56, 0.0759259), 0px 23.2058px 15.3515px rgba(56, 56, 56, 0.0607407), 0px 12.0491px 7.83195px rgba(56, 56, 56, 0.05), 0px 4.90891px 3.92713px rgba(56, 56, 56, 0.0392593), 0px 1.11566px 1.89663px rgba(56, 56, 56, 0.0240741);',
     },

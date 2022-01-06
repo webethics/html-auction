@@ -14,11 +14,12 @@
 }
 .header-logo img {
      height: 100%;
+     max-width: none;
 }
 header nav ul li.active a {
      color: #DB6400;
 }
-.account-labels a:hover svg path {fill:#DB6400;}
+.account-labels a:hover svg.profile-icon path {fill:#DB6400;}
 /* Header Css Ends Here */
 /* Banner Css Starts Here */
 .banner-art {
@@ -124,6 +125,10 @@ footer .footer-container {border-bottom: 1px solid #C1DCDA;}
      }
 }
 @media screen and (max-width: 1024px) {
+          /* .social-icons li a {
+               width: 35px;
+               height: 35px;
+          } */
      header nav {
           top: 100%;
           z-index: 999999;

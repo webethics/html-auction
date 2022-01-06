@@ -1,0 +1,42 @@
+.profile {
+     .container {
+          border: 2px solid #F1F2F6;
+     }
+}
+
+.profile-edit-icon {
+     width: 48px;
+     height: 48px;
+}
+
+.profile-meta-head {
+     border-bottom: 1px solid #ECEDF1;
+}
+
+.job-history {
+     border: 1px solid #E8E7E7;
+     // padding: 25px 0;
+}
+
+.job-history {
+     .job-history-head {
+          border-bottom: 1px solid #E8E7E7;
+     }
+
+     .job-history-list {
+          .list {
+               &:not(:last-child) {
+                    border-bottom: 1px solid #E8E7E7;
+               }
+          }
+     }
+}
+
+@media screen and (max-width: 1024px) {
+     .profile-edit-icon {
+          width: 35px;
+          height: 35px;
+     }
+
+
+ }

@@ -1,0 +1,27 @@
+.notification-count {
+     width: 16px;
+     height: 16px;
+     top: -10px;
+}
+
+.icon-label {
+     &:hover {
+          svg {
+               path {
+                    fill: #DB6400;
+               }
+          }
+     }
+}
+
+.dropdown-with-arrow {
+     &:hover {
+          .arrow-icon {
+               path {
+                    stroke: #DB6400;
+                    // d: path("M0 15 L10 5 L20 15");
+               }
+          }
+
+     }
+}

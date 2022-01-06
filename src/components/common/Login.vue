@@ -1,7 +1,7 @@
 <template>
   <div class="login-form">
     <div class="wrap-inner">
-      <h2 class="text-black text-xl font-bold mb-2">Login to Account</h2>
+      <h2 class="text-black text-xl font-bold mb-4">Login to Account</h2>
       <form action="">
         <label class="block pb-4">
           <span class="block text-xs text-black opacity-50 mb-2"> Email </span>

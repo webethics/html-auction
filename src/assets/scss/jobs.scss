@@ -1,0 +1,101 @@
+/* Create Jobs Css Starts Here */
+.create-job {
+     max-width: 1100px;
+
+     .wrap-inner {
+          #upload-photos {
+               z-index: -1;
+          }
+
+          .radio-wrap {
+
+               input {
+                    &[type="radio"] {
+                         opacity: 0;
+                         transform: translate(-50%, -50%);
+                         z-index: -1;
+                    }
+
+                    ~.design {
+                         width: 18px;
+                         height: 18px;
+                         border: 2px solid #CED4DA;
+                         background-color: #FFFFFf;
+
+                         svg {
+                              opacity: 0;
+                              top: -2px;
+                         }
+                    }
+
+                    &:checked {
+                         +.design {
+                              border-color: #DB6400;
+                              background-color: #DB6400;
+
+                              svg {
+                                   opacity: 1;
+                              }
+                         }
+                    }
+
+                    &:hover {
+                         +.design {
+                              border-color: #DB6400;
+                              // background-color: #DB6400;
+
+                              // svg {
+                              //      opacity: 1;
+                              // }
+                         }
+
+                         ~.text {
+                              color: #DB6400;
+                         }
+                    }
+
+                    &:focus {
+                         +.design {
+                              border-color: #DB6400;
+                              // background-color: #DB6400;
+                         }
+
+                         ~.text {
+                              color: #DB6400;
+                         }
+                    }
+
+                    &:active {
+                         +.design {
+                              border-color: #DB6400;
+                              // background-color: #DB6400;
+
+                              // svg {
+                              //      opacity: 1;
+                              // }
+                         }
+
+                         ~.text {
+                              color: #DB6400;
+                         }
+                    }
+
+               }
+
+
+          }
+
+          .file-wrapper {
+               label {
+                    border: 1px solid #E5E5E5;
+               }
+
+               .custom-file {
+                    height: 220px;
+               }
+          }
+
+     }
+}
+
+/* Create Jobs Css Ends Here */

@@ -1,8 +1,21 @@
+select,
+textarea,
 input[type="tel"],
+input[type="date"],
 input[type="text"],
 input[type="password"],
 input[type="email"] {
      border: 1px solid #E5E5E5;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+     display: none;
+     -webkit-appearance: none;
+}
+
+textarea {
+     resize: none;
 }
 
 /* Modal Css Here */
