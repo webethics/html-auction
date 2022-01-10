@@ -21,7 +21,6 @@
             w-full
             relative
             mb-5
-            md:mb-0
             overflow-hidden
           "
         >
@@ -79,6 +78,7 @@
             md:text-left
             w-full
             relative
+            mb-5
             overflow-hidden
           "
         >
@@ -136,9 +136,7 @@
           items-stretch
           justify-between
           space-x-0
-          md:space-x-5
-          mt-5
-          lg:mt-8
+          md:space-x-5          
         "
       >
         <div
@@ -203,10 +201,11 @@
         <button
           class="
             p-3
-            xl:px-10 xl:p-5
+            xl:px-6 xl:py-3
+            3xl:px-10 3xl:py-5
+            3xl:text-lg
             font-semibold
             text-md
-            2xl:text-lg
             bg-primary
             text-white
             rounded-sm

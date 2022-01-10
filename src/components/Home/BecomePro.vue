@@ -1,5 +1,5 @@
 <template>
-  <div class="become-pro my-8 sm:my-12 lg:my-20 3xl:my-24">
+  <div class="become-pro px-5  my-8 sm:my-12 lg:my-20 3xl:my-24">
     <div
       class="
         container
@@ -7,7 +7,6 @@
         px-5
         py-8
         sm:p-12
-        lg:p-20
         3xl:p-24
         sm:rounded-md
         lg:rounded-lg
@@ -37,12 +36,17 @@
           <h2
             class="
               pro-title
+              leading-30
+              md:leading-40
+              lg:leading-50
+              xl:leading-63
+              3xl:leading-90
               text-six
               md:text-five
               lg:text-four
               xl:text-three
-              2xl:text-two
               3xl:text-one
+
               mb-2
               sm:mb-4
               lg:mb-6
@@ -50,19 +54,20 @@
               text-primary
             "
           >
-            Become A Pro
+            Become A <br/>Pro
           </h2>
-          <p class="text-sm sm:text-base lg:text-lg mb-6">
+          <p class="text-sm sm:text-base lg:text-lg mb-6 leading-20 lg:leading-30 text-paraColor">
             Grow your business by finding your next client, at the perfect
             price!
           </p>
           <button
             class="
               p-3
-              xl:px-10 xl:p-5
+              xl:px-6 xl:py-3
+              3xl:px-10 3xl:py-5
               font-semibold
               text-md
-              2xl:text-lg
+              3xl:text-lg
               bg-primary
               text-white
               rounded-sm

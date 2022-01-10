@@ -4,7 +4,7 @@
       <h2 class="text-black text-xl font-bold mb-4">Login to Account</h2>
       <form action="">
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2"> Email </span>
+          <span class="block text-xs text-lightBlack mb-2"> Email </span>
           <input
             type="email"
             name="email"
@@ -14,7 +14,6 @@
               bg-white
               placeholder-blackLight
               text-black
-              opacity-50
               w-full
               rounded-xs
               text-sm
@@ -27,7 +26,7 @@
           />
         </label>
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">
+          <span class="block text-xs text-lightBlack mb-2">
             Password
           </span>
           <input
@@ -39,7 +38,6 @@
               bg-white
               placeholder-blackLight
               text-black
-              opacity-50
               w-full
               rounded-xs
               text-sm
@@ -115,12 +113,11 @@
               font-semibold
               text-md
               2xl:text-base
-              bg-blue
+              bg-facebook
               text-white
               rounded-sm
               shadow-sm
               w-full
-              hover:bg-green
               duration-500
               ease-in-out
               flex
@@ -158,8 +155,7 @@
               text-black
               rounded-sm
               shadow-sm
-              w-full
-              hover:bg-green hover:border-green hover:text-white
+              w-full              
               duration-500
               ease-in-out
               flex
@@ -206,6 +202,7 @@
         <label class="block pb-4">
           <button
             class="
+              apple
               px-3
               xl:px-5
               py-3
@@ -217,7 +214,6 @@
               rounded-sm
               shadow-sm
               w-full
-              hover:bg-green
               duration-500
               ease-in-out
               flex

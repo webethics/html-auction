@@ -23,8 +23,12 @@
             md:text-five
             lg:text-four
             xl:text-three
-            2xl:text-two
-            3xl:text-one
+            3xl:text-two
+            leading-30
+            md:leading-40
+            lg:leading-50
+            xl:leading-63
+            3xl:leading-70
             mb-2
             sm:mb-4
             lg:mb-6
@@ -34,7 +38,7 @@
         >
           How It Works
         </h2>
-        <p class="text-sm sm:text-base">
+        <p class="text-sm sm:text-base text-paraColor leading-20 lg:leading-30">
           No more time wasted spent searching the internet for professionals.
           With BidAgree, the professionals compete to earn your business. Here's
           how to get started
@@ -93,13 +97,14 @@
             class="
               text-lg
               lg:text-xl
-              xl:text-2xl
               3xl:text-six
               work-title
               font-semibold
-              text-black text-center
+              text-lightBlack text-center
               md:text-left md:pt-16
-              lg:pt-24
+              lg:pt-24             
+              leading-25
+              3xl:leading-36 
             "
           >
             Create a post for a service
@@ -124,13 +129,14 @@
             class="
               text-lg
               lg:text-xl
-              xl:text-2xl
               3xl:text-six
               work-title
               font-semibold
-              text-black text-center
+              text-lightBlack text-center
               md:text-left md:pt-16
               lg:pt-24
+              leading-25
+              3xl:leading-36
             "
           >
             Professionals will BidAgree & quote on your post
@@ -221,13 +227,14 @@
             class="
               text-lg
               lg:text-xl
-              xl:text-2xl
               3xl:text-six
               work-title
               font-semibold
-              text-black text-center
+              text-lightBlack text-center
               md:text-left md:pt-16
               lg:pt-24
+              leading-25
+              3xl:leading-36
             "
           >
             Promote your favorites and accept only the best offer
@@ -253,13 +260,14 @@
             class="
               text-lg
               lg:text-xl
-              xl:text-2xl
               3xl:text-six
               work-title
               font-semibold
-              text-black text-center
+              text-lightBlack text-center
               md:text-left md:pt-16
               lg:pt-24
+              leading-25
+              3xl:leading-36
             "
           >
             We share up to 100% of our earnings with you; for every accepted
@@ -325,7 +333,9 @@
               3xl:text-lg
               work-title
               font-semibold
-              text-black
+              text-lightBlack
+              leading-20
+              lg:leading-30
             "
           >
             *A BidAgree is the amount the professional is willing to pay you to

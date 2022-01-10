@@ -1,25 +1,25 @@
 <template>
   <div class="create-job mx-auto px-5">
-    <h2 class="flex items-center justify-center font-bold text-six md:text-five lg:text-four xl:text-three 2xl:text-two  mt-12">Create Post</h2>
+    <h2 class="flex items-center justify-center font-bold text-six md:text-five lg:text-four xl:text-three 2xl:text-two mt-12 text-lightBlack leading-90">Create Post</h2>
     <div class="wrap-inner rounded-sm border border-blue bg-white p-6 md:p-12 my-6 md:my-12">
-      <h2 class="text-black text-xl font-bold mb-4">Create a Post</h2>
+      <h2 class="text-lightBlack text-xl font-bold mb-4">Create a Post</h2>
       <form action="">
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2"> Job Category </span>
-          <select name="" id="" class="px-4 py-2 bg-white placeholder-blackLight text-black opacity-50 w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary">
+          <span class="block text-xs mb-2 text-lightBlack"> Job Category </span>
+          <select name="" id="" class="px-4 py-2 bg-white placeholder-blackLight text-black  w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary">
                <option value="contractor">Contractor</option>
           </select>
         </label>
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">Job Title </span>
-          <input type="text" name="job-title" class="px-4 py-2 bg-white placeholder-blackLight text-black opacity-50 w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary" placeholder="Job Title Name" />
+          <span class="block text-xs text-lightBlack mb-2">Job Title </span>
+          <input type="text" name="job-title" class="px-4 py-2 bg-white placeholder-blackLight text-black  w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary" placeholder="Job Title Name" />
         </label>
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">Job Description</span>
-          <textarea name="" id="" cols="30" rows="4" class="px-4 py-2 bg-white placeholder-blackLight text-black opacity-50 w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary" placeholder="Description"></textarea>
+          <span class="block text-xs text-lightBlack mb-2">Job Description</span>
+          <textarea name="" id="" cols="30" rows="4" class="px-4 py-2 bg-white placeholder-blackLight text-black  w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary" placeholder="Description"></textarea>
         </label>
         <div class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">Emergency</span>
+          <span class="block text-xs text-lightBlack mb-2">Emergency</span>
           <div class="radio-wrapper flex items-center space-x-4">
             <label class="radio-wrap flex justify-left items-center cursor-pointer relative">
                 <input type="radio" name="dark" checked class="absolute top-1/2 left-1/2">
@@ -43,8 +43,8 @@
         </div>
 
         <div class="block pb-4 file-wrapper" for="upload-photos">
-          <span class="block text-xs text-black opacity-50 mb-2">Photos</span>
-          <label for="upload-photos" class="relative flex w-full items-center justify-center px-4 py-2 bg-white placeholder-blackLight text-black opacity-50 w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary cursor-pointer">
+          <span class="block text-xs text-lightBlack mb-2">Photos</span>
+          <label for="upload-photos" class="relative flex w-full items-center justify-center px-4 py-2 bg-white placeholder-blackLight text-black  w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary cursor-pointer">
             <input type="file" name="upload-photos" id="upload-photos" class="absolute opacity-0"/>
             <span class="custom-file flex items-center justify-center flex-wrap flex-col">
               <svg width="75" height="74" viewBox="0 0 75 74" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -70,13 +70,13 @@
         </div>
         
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">End date</span>
-          <input type="date" name="end-date" class="px-4 py-2 bg-white placeholder-blackLight text-black opacity-50 w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary" placeholder="12-17-2021" />
+          <span class="block text-xs text-lightBlack mb-2">End date</span>
+          <input type="date" name="end-date" class="px-4 py-2 bg-white placeholder-blackLight text-black w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary" placeholder="12-17-2021" />
         </label>
         
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">Address</span>
-          <input type="text" name="address" class="px-4 py-2 bg-white placeholder-blackLight text-black opacity-50 w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary" placeholder="400 Broad St, Seattle, WA 98109" />
+          <span class="block text-xs text-lightBlack mb-2">Address</span>
+          <input type="text" name="address" class="px-4 py-2 bg-white placeholder-blackLight text-black w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary" placeholder="400 Broad St, Seattle, WA 98109" />
         </label>
         <label class="block pb-4">
           <figure>

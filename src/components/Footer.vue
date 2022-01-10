@@ -31,7 +31,7 @@
               />
             </a>
           </div>
-          <p class="text-sm footer-description w-full">
+          <p class="text-sm footer-description w-full text-paraColor leading-20 lg:leading-30">
             Work with the largest network of independent professionals to get
             your job done -- from quick turn-arounds, to large-scale
             transformations.
@@ -74,11 +74,12 @@
                 md:mb-4
                 xl:mb-6
                 2xl:mb-10
+                text-lightBlack
               "
             >
               About
             </h2>
-            <ul class="text-sm">
+            <ul class="text-sm text-paraColor leading-30">
               <li>
                 <a href="#">Home</a>
               </li>
@@ -114,11 +115,12 @@
                 md:mb-4
                 xl:mb-6
                 2xl:mb-10
+                text-lightBlack
               "
             >
               Privacy
             </h2>
-            <ul class="text-sm">
+            <ul class="text-sm text-paraColor leading-30">
               <li>
                 <a href="#">Privacy</a>
               </li>
@@ -154,11 +156,12 @@
                 md:mb-4
                 xl:mb-6
                 2xl:mb-10
+                text-lightBlack
               "
             >
               Contact Us
             </h2>
-            <ul class="text-sm">
+            <ul class="text-sm text-paraColor leading-30">
               <li>
                 <a href="tel:+012345678910">+01 234 567 8910 </a>
               </li>
@@ -323,13 +326,16 @@
           lg:space-x-10
           text-sm text-center
           sm:text-left
+          text-paraColor
+          leading-20
+          lg:leading-30
         "
       >
-        <div class="copyright">
+        <div class="copyright mb-3 sm:mb-0">
           <p>© Copyright 2021 BidAgree All rights reserved.</p>
         </div>
         <div class="copyright-menus">
-          <ul>
+          <ul class="text-paraColor">
             <li>
               <a href="#">Contact us</a>
             </li>

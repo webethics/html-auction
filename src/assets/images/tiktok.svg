@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30">
+	<title>TikTok</title>
+	<defs>
+		<image  width="30" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAAXNSR0IB2cksfwAAASlQTFRF/v7+vb29bGxsYGBgcnJywsLCFhYWAAAAvr6+AQEBX19fHR0dk5OTn5+flZWVHBwcJycn5ubm////+Pj4VlZWra2tBwcHKCgo5+fn+/v7c3NzAgIC/v7+ioqKJiYmKSkp4ODgtbW1Kioq6Ojo9fX14eHhRkZG5OTk19fXFxcXOzs7Pz8/BgYGEBAQxsbG2traPT09GRkZiYmJ29vbzs7O6enp4+PjCwsLCAgI0tLSDg4O7Ozst7e3/Pz8kJCQJSUlBAQEKysr6urqtra2o6Oj6+vrRERE9vb2Nzc3MTEx7+/vz8/PycnJgICAOTk5h4eH8/PzsbGxs7Oz8PDwVFRUUFBQUVFR1NTUzc3NS0tLGBgYU1NThoaGmpqajIyMERERw8PD/f39v7+/oAWUKAAAAGN0Uk5TAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wD/CqOSKAAAATNJREFUeJx902lTwkAMBuClBcICCr54cWuLKCoqKuANonjft+KB/v8f4bYziLWN+ZSZZ5POJlshfJrOhD8gRCBIbARDws+rJE2EeSbSXRyJDgzGeI4PITGs+vKMkVGGJY2NA8lUmqtWnEEim0u72O6YV9UqJiYN72oThSnrQNGT8yamizNeXJqdm5eG4nIku7C41Gfrq5XlleRqmfJV1MpE9diaozq+rhoqNqqq+u/U5IZP6eYWw6QD2zuNpqTdlhfvAftNK/HmNnBAPB8CR3ZyfIJa3cWnQMpOwhmckYOtW58DraJKLmrAZW8U/eqcCVxdR29ugXbFRukYy13B2kNGXf6eeo/lF8uHR3uTT8/p/hZ+Zq7Ov3Re3947H0Qu5kIX2n+cEqESr8Gu+Oz6uV9Q+xLf6A8zMKy/NmQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

@@ -4,7 +4,7 @@
       <h2 class="text-black text-xl font-bold mb-4">Create Account</h2>
       <form action="">
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">
+          <span class="block text-xs text-lightBlack mb-2">
             First Name</span
           >
           <input
@@ -16,7 +16,6 @@
               bg-white
               placeholder-blackLight
               text-black
-              opacity-50
               w-full
               rounded-xs
               text-sm
@@ -29,7 +28,7 @@
           />
         </label>
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">
+          <span class="block text-xs text-lightBlack mb-2">
             Last Name</span
           >
           <input
@@ -41,7 +40,6 @@
               bg-white
               placeholder-blackLight
               text-black
-              opacity-50
               w-full
               rounded-xs
               text-sm
@@ -54,7 +52,7 @@
           />
         </label>
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">
+          <span class="block text-xs text-lightBlack mb-2">
             Email Address</span
           >
           <input
@@ -66,7 +64,6 @@
               bg-white
               placeholder-blackLight
               text-black
-              opacity-50
               w-full
               rounded-xs
               text-sm
@@ -79,7 +76,7 @@
           />
         </label>
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2"> Phone </span>
+          <span class="block text-xs text-lightBlack mb-2"> Phone </span>
           <input
             type="tel"
             name="phone"
@@ -89,7 +86,6 @@
               bg-white
               placeholder-blackLight
               text-black
-              opacity-50
               w-full
               rounded-xs
               text-sm
@@ -102,7 +98,7 @@
           />
         </label>
         <label class="block pb-4">
-          <span class="block text-xs text-black opacity-50 mb-2">
+          <span class="block text-xs text-lightBlack mb-2">
             Password
           </span>
           <input
@@ -114,7 +110,6 @@
               bg-white
               placeholder-blackLight
               text-black
-              opacity-50
               w-full
               rounded-xs
               text-sm
@@ -186,12 +181,11 @@
               font-semibold
               text-md
               2xl:text-base
-              bg-blue
+              bg-facebook
               text-white
               rounded-sm
               shadow-sm
               w-full
-              hover:bg-green
               duration-500
               ease-in-out
               flex
@@ -230,7 +224,6 @@
               rounded-sm
               shadow-sm
               w-full
-              hover:bg-green hover:border-green hover:text-white
               duration-500
               ease-in-out
               flex
@@ -277,6 +270,7 @@
         <label class="block pb-4">
           <button
             class="
+              apple
               px-3
               xl:px-5
               py-3
@@ -288,7 +282,6 @@
               rounded-sm
               shadow-sm
               w-full
-              hover:bg-green
               duration-500
               ease-in-out
               flex

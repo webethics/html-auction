@@ -1,5 +1,5 @@
 <template>
-  <div class="feature-services">
+  <div class="feature-services px-5">
     <div
       class="
         container
@@ -11,7 +11,6 @@
         3xl:px-28
         py-8
         sm:py-12
-        lg:py-20
         3xl:py-24
         sm:rounded-md
         lg:rounded-lg
@@ -24,13 +23,13 @@
             md:text-five
             lg:text-four
             xl:text-three
-            2xl:text-two
+            3xl:text-two
             font-bold
             text-white
             pb-8
             sm:pb-12
-            lg:pb-20
             3xl:pb-24
+            leading-30 md:leading-40 lg:leading-50 xl:leading-63 3xl:leading-90
           "
         >
           Featured Services
@@ -88,14 +87,14 @@
           </div>
           <h3
             class="
+              text-lightBlack
               text-lg
-              xl:text-xl
               3xl:text-2xl
               font-semibold
               mt-5
-              lg:mt-10
+              3xl:mt-10
               mb-2
-              lg:mb-6
+              3xl:mb-6
               fs-title
               transition
               duration-500
@@ -103,10 +102,10 @@
               cursor-pointer
             "
           >
-            <a href=""> Apply with your home</a>
+            <a href=""> Emergency Services</a>
           </h3>
-          <p class="text-sm sm:text-base lg:text-lg mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <p class="text-paraColor leading-20 3xl:leading-30 text-sm sm:text-base 3xl:text-lg mt-2">
+            Get immediate help now from local providers
           </p>
           <a
             href="#"
@@ -189,14 +188,14 @@
           </div>
           <h3
             class="
+              text-lightBlack
               text-lg
-              xl:text-xl
               3xl:text-2xl
               font-semibold
               mt-5
-              lg:mt-10
+              3xl:mt-10
               mb-2
-              lg:mb-6
+              3xl:mb-6
               fs-title
               transition
               duration-500
@@ -204,10 +203,10 @@
               cursor-pointer
             "
           >
-            <a href=""> Complete the form</a>
+            <a href=""> Long-Term Projects</a>
           </h3>
-          <p class="text-sm sm:text-base lg:text-lg mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <p class="text-paraColor leading-20 3xl:leading-30 text-sm sm:text-base 3xl:text-lg mt-2">
+            Start planning and receiving quotes, all in one platform
           </p>
           <a
             href="#"
@@ -290,14 +289,14 @@
           </div>
           <h3
             class="
+             text-lightBlack
               text-lg
-              xl:text-xl
               3xl:text-2xl
               font-semibold
               mt-5
-              lg:mt-10
+              3xl:mt-10
               mb-2
-              lg:mb-6
+              3xl:mb-6
               fs-title
               transition
               duration-500
@@ -305,10 +304,10 @@
               cursor-pointer
             "
           >
-            <a href=""> Choose the fair rate</a>
+            <a href=""> Small Business</a>
           </h3>
-          <p class="text-sm sm:text-base lg:text-lg mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          <p class="text-paraColor leading-20 3xl:leading-30 text-sm sm:text-base 3xl:text-lg mt-2">
+            Support small businesses and work with real people.
           </p>
           <a
             href="#"
@@ -352,10 +351,11 @@
         <button
           class="
             p-3
-            xl:px-10 xl:p-5
+            xl:px-6 xl:py-3
+            3xl:px-10 3xl:py-5
             font-semibold
             text-md
-            2xl:text-lg
+            3xl:text-lg
             bg-primary
             text-white
             rounded-sm

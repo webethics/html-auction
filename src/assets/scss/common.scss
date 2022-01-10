@@ -5,7 +5,29 @@ input[type="date"],
 input[type="text"],
 input[type="password"],
 input[type="email"] {
-     border: 1px solid #E5E5E5;
+     border: 1px solid #d1d1d1;
+}
+
+.bg-facebook {
+     &:hover {
+          box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.5) inset;
+     }
+}
+
+button {
+     &.bg-white {
+          &:hover {
+               box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.5) inset;
+          }
+     }
+}
+
+button {
+     &.apple {
+          &:hover {
+               box-shadow: 0 8px 10px -5px rgba(255, 255, 255, 1) inset;
+          }
+     }
 }
 
 input[type="date"]::-webkit-inner-spin-button,
@@ -34,6 +56,10 @@ textarea {
           button {
                color: #000;
                padding: 10px 0 0;
+
+               &:focus-visible {
+                    outline: none;
+               }
 
                &:hover {
                     color: #DB6400;

@@ -17,9 +17,9 @@
                          <img src="../../assets/images/user.jpg" alt="" class="mx-auto md:ml-0" />
                     </figure>
                     <div class="user-meta">
-                         <h2 class="text-lg sm:text-xl md:text-2xl lg:text-six 2xl:text-five 3xl:text-four font-bold mt-3 md:mt-0 mb-2 lg:mb-3">David Yates</h2>
-                         <p class="text-base mb-2 lg:mb-3">info.david@gmail.com</p>
-                         <p class="text-base mb-2 lg:mb-3">0938678204</p>
+                         <h2 class="text-lg sm:text-xl md:text-2xl lg:text-six 2xl:text-five 3xl:text-four font-bold mt-3 md:mt-0 text-lightBlack leading-63">David Yates</h2>
+                         <p class="text-base text-paraColor leading-30">info.david@gmail.com</p>
+                         <p class="text-base mb-1 text-paraColor leading-30">0938678204</p>
                          <figure>
                               <img src="../../assets/images/stars.png" alt="" class="mx-auto md:ml-0" />
                          </figure>
@@ -62,43 +62,43 @@
                               </a>
                          </li>
                     </ul>
-                    <ul class="jobs-meta flex items-center flex-wrap space-x-4 lg:space-x-6">
-                         <li><a href="#" class="flex flex-wrap flex-col text-sm">Jobs Posted <span class="font-bold">64</span></a></li>
-                         <li><a href="#" class="flex flex-wrap flex-col text-sm">Completed Jobs <span class="font-bold">50</span></a></li>
-                         <li><a href="#" class="flex flex-wrap flex-col text-sm">Open Jobs <span class="font-bold">05</span></a></li>
+                    <ul class="jobs-meta flex items-center flex-wrap flex-col text-center sm:text-left sm:flex-row space-x-0 space-y-4 sm:space-y-0 sm:space-x-6">
+                         <li><a href="#" class="flex flex-wrap flex-col text-sm text-lightBlack">Jobs Posted <span class="font-bold">64</span></a></li>
+                         <li><a href="#" class="flex flex-wrap flex-col text-sm text-lightBlack">Completed Jobs <span class="font-bold">50</span></a></li>
+                         <li><a href="#" class="flex flex-wrap flex-col text-sm text-lightBlack">Open Jobs <span class="font-bold">05</span></a></li>
                     </ul>
                </div>     
           </div>
-          <div class="profile-description py-4 md:py-8 text-sm leading-25 text-center md:text-left">
+          <div class="profile-description py-4 md:py-6 text-xs leading-20 lg:leading-25 text-center md:text-left text-paraColor">
                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla at cras ut dictum eu condimentum. Netus quis netus aliquet viverra lacinia iaculis auctor vitae, fusce. Vitae, lobortis tristique elit suspendisse facilisi consectetur. Tortor, non morbi nec tincidunt pellentesque nibh sit sem. Duis facilisi feugiat congue risus. Dictum felis risus turpis mollis sagittis quisque vel vitae porta. Pharetra, maecenas fermentum eu auctor pulvinar phasellus diam.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla at cras ut dictum eu condimentum. Netus quis netus aliquet viverra lacinia iaculis auctor vitae, fusce. Vitae, lobortis tristique elit suspendisse facilisi consectetur. Tortor, non morbi nec tincidunt pellentesque nibh sit sem. Duis facilisi feugiat congue risus. Dictum felis risus turpis mollis sagittis quisque vel vitae porta. Pharetra, maecenas fermentum eu auctor pulvinar phasellus diam. </p>
           </div>
           <div class="job-history w-full rounded-sm">
                <div class="job-history-head px-4 md:px-8 py-4 md:py-6">
-                    <h2 class="font-bold text-lg lg:text-2xl xl:text-six">Jobs History</h2>
+                    <h2 class="font-bold text-lg lg:text-2xl xl:text-six text-lightBlack leading-30">Jobs History</h2>
                </div>
                <div class="job-history-list">
                     <div class="list px-4 md:px-8 py-4 md:py-6">
                          <div class="job-title-wrap flex flex-wrap md:items-center justify-between mb-2 flex-col md:flex-row">
-                              <a href="#" class="font-semibold text-base md:text-lg">House Contractor</a>
-                              <span class="date text-sm">02-Dec-2021 - 12-Dec-2021</span>
+                              <a href="#" class="font-semibold text-base md:text-lg leading-30">House Contractor</a>
+                              <span class="date text-sm text-lightBlack">02-Dec-2021 - 12-Dec-2021</span>
                          </div>
-                         <p class="mb-2 text-sm"><strong class="font-semibold">To Client</strong> <img class="inline-block align-middle mx-1" src="../../assets/images/star.png" alt="" /> Loved working with this contractor</p>
-                         <p class="mb-2 text-sm italic">Job Completed</p>
-                         <p class="text-sm"><strong class="font-semibold">To Freelancer:</strong> <span class="text-green"> David Yates</span> <img class="inline-block align-middle mx-1" src="../../assets/images/star.png" alt="" /> Amazing Experience working with Proffessional .
+                         <p class="mb-2 text-sm text-lightBlack"><strong class="font-semibold">To Client</strong> <img class="inline-block align-middle mx-1" src="../../assets/images/star.png" alt="" /> Loved working with this contractor</p>
+                         <p class="mb-2 text-sm italic text-paraColor">Job Completed</p>
+                         <p class="text-sm text-lightBlack"><strong class="font-semibold">To Freelancer:</strong> <span class="text-green"> David Yates</span> <img class="inline-block align-middle mx-1" src="../../assets/images/star.png" alt="" /> Amazing Experience working with Proffessional .
                          </p>
                     </div>
                     <div class="list px-4 md:px-8 py-4 md:py-6">
                          <div class="job-title-wrap flex flex-wrap md:items-center justify-between mb-2 flex-col md:flex-row">
-                              <a href="#" class="font-semibold text-base md:text-lg">Factory Plumber</a>
-                              <span class="date text-sm">10-Dec-2021 - Till Date</span>
+                              <a href="#" class="font-semibold text-base md:text-lg leading-30">Factory Plumber</a>
+                              <span class="date text-sm text-lightBlack">10-Dec-2021 - Till Date</span>
                          </div>
-                         <p class="mb-2 text-sm italic">Currently open.</p>
+                         <p class="mb-2 text-sm italic text-paraColor">Currently open.</p>
                     </div>
                     <div class="list px-4 md:px-8 py-4 md:py-6">
                          <div class="job-title-wrap flex flex-wrap md:items-center justify-between mb-2 flex-col md:flex-row">
-                              <a href="#" class="font-semibold text-base md:text-lg">Web Developer</a>
+                              <a href="#" class="font-semibold text-base md:text-lg leading-30">Web Developer</a>
                          </div>
-                         <p class="mb-2 text-sm italic">Job in Progress.</p>
+                         <p class="mb-2 text-sm italic text-paraColor">Job in Progress.</p>
                     </div>
                </div>
           </div>
