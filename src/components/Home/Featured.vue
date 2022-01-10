@@ -350,8 +350,8 @@
       <div class="flex justify-center md:justify-end mt-8">
         <button
           class="
-            p-3
-            xl:px-6 xl:py-3
+            py-2
+            px-6 xl:py-3
             3xl:px-10 3xl:py-5
             font-semibold
             text-md

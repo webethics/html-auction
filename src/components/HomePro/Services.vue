@@ -28,7 +28,7 @@
             class="
               services-img
               bg-plumber bg-cover bg-bottom
-              transition
+              transition-transform
               duration-500
               ease-in-out
             "
@@ -86,7 +86,7 @@
             class="
               services-img
               bg-contractor bg-cover bg-bottom
-              transition
+              transition-transform
               duration-500
               ease-in-out
             "
@@ -154,7 +154,7 @@
             class="
               services-img
               bg-realtor bg-cover bg-bottom
-              transition
+              transition-transform
               duration-500
               ease-in-out
             "
@@ -200,8 +200,8 @@
       <div class="flex justify-center mt-5 md:justify-end lg:mt-8">
         <button
           class="
-            p-3
-            xl:px-6 xl:py-3
+            py-2
+            px-6 xl:py-3
             3xl:px-10 3xl:py-5
             3xl:text-lg
             font-semibold

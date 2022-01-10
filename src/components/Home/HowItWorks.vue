@@ -73,7 +73,7 @@
               text-three
               sm:text-two
               xl:text-one
-              2xl:text-counter
+              3xl:text-counter
               text-green
               font-bold
               absolute
@@ -158,7 +158,7 @@
               text-three
               sm:text-two
               xl:text-one
-              2xl:text-counter
+              3xl:text-counter
               text-green
               font-bold
               absolute
@@ -205,7 +205,7 @@
               text-three
               sm:text-two
               xl:text-one
-              2xl:text-counter
+              3xl:text-counter
               text-green
               font-bold
               absolute
@@ -290,7 +290,7 @@
               text-three
               sm:text-two
               xl:text-one
-              2xl:text-counter
+              3xl:text-counter
               text-green
               font-bold
               absolute
