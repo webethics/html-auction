@@ -46,6 +46,13 @@ header nav ul li.active a {
      background: -o-linear-gradient(143.81deg, #1DA599 16.67%, #23BE6A 113.15%);
      background: linear-gradient(143.81deg, #1DA599 16.67%, #23BE6A 113.15%);
 }
+.home-professional .feature-services .fs-img-wrap {
+     background: -webkit-linear-gradient(143.81deg, #DB6400 16.67%, #FFAF2C 113.15%);;
+     background: -moz-linear-gradient(143.81deg, #DB6400 16.67%, #FFAF2C 113.15%);;
+     background: -ms-linear-gradient(143.81deg, #DB6400 16.67%, #FFAF2C 113.15%);;
+     background: -o-linear-gradient(143.81deg, #DB6400 16.67%, #FFAF2C 113.15%);;
+     background: linear-gradient(143.81deg, #DB6400 16.67%, #FFAF2C 113.15%);;
+}
 .feature-services .fs-arrow {
      width: 50px;
      height: 50px;
@@ -56,6 +63,10 @@ header nav ul li.active a {
 /* Featured Services Css Ends Here */
 
 /* Become Pro Css Starts Here */
+
+.home-professional .become-pro .container {
+     background-color: #D9F0EE;
+}
 .become-pro .container {
      background: rgba(255, 195, 107, 0.24);
 }
@@ -104,7 +115,10 @@ footer .footer-container {border-bottom: 1px solid #C1DCDA;}
      }
      .feature-services .featured-column:hover .fs-img-wrap img {transform:scale(1.2)}
      .feature-services .featured-column:hover .fs-arrow {background-color:#1DA599; transform: scale(1.05)}
+     .home-professional .feature-services .featured-column:hover .fs-arrow {background-color:#DB6400; transform: scale(1.05)}
      .feature-services .featured-column:hover .fs-title {color:#1DA599;}
+     .home-professional .feature-services .featured-column:hover .fs-title {color:#DB6400;}
+
      .feature-services .featured-column:hover .fs-arrow svg path {stroke:#ffffff;}
      .services .services-wrap:hover .services-img {transform: scale(1.1);}
 }
@@ -151,11 +165,7 @@ footer .footer-container {border-bottom: 1px solid #C1DCDA;}
           left: -20px;
      }
 }
-@media screen and (max-width: 1024px) {
-          /* .social-icons li a {
-               width: 35px;
-               height: 35px;
-          } */
+@media screen and (max-width: 1024px) {         
      header nav {
           top: 0;
           z-index: 999999;

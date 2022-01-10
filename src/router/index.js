@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import homeRoutes from './home.routes'
+import homeProRoutes from './homepro.routes'
 import blogRoutes from './blog.routes'
 import jobsRoutes from './job.routes';
 import profileRoutes from './profile.routes';
@@ -14,6 +15,7 @@ const routes = [
   ...blogRoutes,
   ...jobsRoutes,
   ...profileRoutes,
+  ...homeProRoutes,
   {
     path: '/contact-us',
     name: 'ContactUs',
