@@ -1,10 +1,22 @@
-import Jobs from '@views/Jobs/Index.vue'
+import CreateJob from '@views/Jobs/CreateJob.vue'
+import JobListing from '@views/Jobs/JobListing.vue'
+import JobListingPro from '@views/Jobs/JobListingPro.vue'
 
 const jobsRoutes = [
      {
-          path: '/jobs',
-          name: 'Jobs',
-          component: Jobs
+          path: '/create-job',
+          name: 'CreateJob',
+          component: CreateJob
+     },
+     {
+          path: '/job-listing',
+          name: 'JobListing',
+          component: JobListing
+     },
+     {
+          path: '/job-listing-pro',
+          name: 'JobListingPro',
+          component: JobListingPro
      }
 ]
 

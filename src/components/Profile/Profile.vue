@@ -26,12 +26,12 @@
                     </div>
                </div>     
                <div class="profile-meta-right w-full md:w-2/4 flex justify-end flex-wrap justify-center md:justify-end">
-                    <a href="#" class="bg-black inline-block profile-edit-icon absolute md:relative top-5 md:top-0 right-0 rounded-full flex items-center justify-center">
+                    <a href="#" class="bg-black hover:bg-primary transition inline-block profile-edit-icon absolute md:relative top-5 md:top-0 right-0 rounded-full flex items-center justify-center">
                          <svg class="m-auto" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M18 4.14815L14.8519 1L2.25926 13.5926L1 18L5.40741 16.7407L18 4.14815ZM12.3333 3.51852L15.4815 6.66667L12.3333 3.51852ZM2.25926 13.5926L5.40741 16.7407L2.25926 13.5926Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                          </svg>
                     </a>
-                    <ul class="social-icons w-full text-center md:text-right mt-4 lg:mt-12 space-x-2 lg:space-x-4 mb-2 lg:mb-8">
+                    <ul class="social-icons w-full text-center md:text-right mt-4 lg:mt-8 space-x-2 lg:space-x-4 mb-2 lg:mb-6">
                          <li>
                               <a href="#" class="bg-black inline-block rounded-full hover:bg-primary ease-in-out duration-500">
                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

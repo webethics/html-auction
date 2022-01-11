@@ -309,7 +309,26 @@
     </div>
     <div class="form-footer text-sm text-black text-center py-5">
       Already have an account?
-      <a href="#" class="underline text-primary hover:text-green">Login</a>
+      <a 
+          href="#" 
+          class="underline text-primary hover:text-green" 
+          @click="showLoginModal"
+       >
+        Login
+      </a>
     </div>
   </div>
 </template>
+<script>
+export default {
+  name: "login",
+  data() {
+    return {};
+  },
+  methods: {
+    showLoginModal() {
+      this.$emit("closeSignUpModal");
+    },
+  },
+};
+</script>

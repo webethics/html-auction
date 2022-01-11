@@ -81,7 +81,12 @@ module.exports = {
       lightBlack: '#313131',
       paraColor: '#425466',
       blue: '#DBDBDB',
-      inputBorder: "#E5E5E5"
+      inputBorder: "#E5E5E5",
+      tableData: "#F4F7FC",
+      candidate: "#1DA599",
+      jobActive: "#0AC05E",
+      jobCompleted: "#DB6400",
+      jobWorking: "#333333",
     },
     fontSize: {
       xs: ["12px"],
@@ -110,6 +115,7 @@ module.exports = {
       '30': '30px',
       '25': '25px',
       '20': '20px',
+      '14': '14px',
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
@@ -128,6 +134,7 @@ module.exports = {
     },
     boxShadow: {
       'xs': '0px 2px 3px rgba(0, 0, 0, 0.15)',
+      'dropdown': '0 10px 10px -5px rgba(0, 0, 0, 0.1)',
       'xl': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
       '3xl': '0px 60.2457px 48.1966px rgba(56, 56, 56, 0.1), 0px 39.0482px 28.2262px rgba(56, 56, 56, 0.0759259), 0px 23.2058px 15.3515px rgba(56, 56, 56, 0.0607407), 0px 12.0491px 7.83195px rgba(56, 56, 56, 0.05), 0px 4.90891px 3.92713px rgba(56, 56, 56, 0.0392593), 0px 1.11566px 1.89663px rgba(56, 56, 56, 0.0240741);',
     },

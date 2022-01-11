@@ -198,27 +198,7 @@
       </div>
 
       <div class="flex justify-center mt-5 md:justify-end lg:mt-8">
-        <button
-          class="
-            py-2
-            px-6 xl:py-3
-            3xl:px-10 3xl:py-5
-            3xl:text-lg
-            font-semibold
-            text-md
-            bg-primary
-            text-white
-            rounded-sm
-            shadow-sm
-            uppercase
-            shadow-3xl
-            hover:bg-green
-            duration-500
-            ease-in-out
-          "
-        >
-          see all
-        </button>
+        <router-link class="py-2px-6 xl:py-3 3xl:px-10 3xl:py-5 3xl:text-lg font-semibold text-md bg-primary text-white rounded-sm shadow-sm uppercase shadow-3xl hover:bg-green duration-500 ease-in-out" to="/job-listing" tag="button">see all</router-link>
       </div>
     </div>
   </div>

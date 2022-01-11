@@ -58,51 +58,31 @@
           </span>
         </label>
         <label class="block pb-4">
-          <button
-            class="
-              px-3
-              xl:px-5
-              py-3
-              font-semibold
-              text-md
-              2xl:text-base
-              bg-primary
-              text-white
-              rounded-sm
-              shadow-sm
-              w-full
-              hover:bg-green
-              duration-500
-              ease-in-out
-              flex
-              items-center
-              justify-center
-            "
-          >
-            <span class="mr-3">Login</span>
-            <svg
-              width="17"
-              height="16"
-              viewBox="0 0 17 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M4.14966 8H13.483"
-                stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M8.81641 3.3335L13.4831 8.00016L8.81641 12.6668"
-                stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
+          <router-link to="/job-listing" class="px-3 xl:px-5 py-3 font-semibold text-md 2xl:text-base bg-primary text-white rounded-sm shadow-sm w-full hover:bg-green duration-500 ease-in-out flex items-center justify-center" tag="button">
+              <span class="mr-3">Login</span>
+              <svg
+                width="17"
+                height="16"
+                viewBox="0 0 17 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.14966 8H13.483"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8.81641 3.3335L13.4831 8.00016L8.81641 12.6668"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+          </router-link>
         </label>
         <label class="block pb-4">
           <button
@@ -244,24 +224,25 @@
       <a
         href="#"
         class="underline text-primary hover:text-green"
-        @click="showModalSignup = true"
+        @click="showSignUpModal"
         >Sign up</a
       >
     </div>
   </div>
 </template>
 <script>
-// import Signup from "../components/common/Signup.vue";
-// export default {
-//   name: "login",
-//   components: { Signup },
-//   data() {
-//     return {
-//       showModalSignup: true,
-//     };
-//   },
-//   methods() {},
-// };
-//
+export default {
+  name: "login",
+  data() {
+    return {
+      showModalSignup: false,
+    };
+  },
+  methods: {
+    showSignUpModal() {
+      this.$emit("closeLoginModal");
+    },
+  },
+};
 </script>
 

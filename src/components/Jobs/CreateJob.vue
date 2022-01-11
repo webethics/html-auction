@@ -7,7 +7,9 @@
         <label class="block pb-4">
           <span class="block text-xs mb-2 text-lightBlack"> Job Category </span>
           <select name="" id="" class="px-4 py-2 bg-white placeholder-blackLight text-black  w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary">
+               <option value="plumber">Plumber</option>
                <option value="contractor">Contractor</option>
+               <option value="realtor">Realtor</option>
           </select>
         </label>
         <label class="block pb-4">
@@ -28,7 +30,7 @@
                     <path d="M0.816406 5.5L3.81641 7.5L9.31641 1.5" stroke="white" stroke-width="2.01011"/>
                   </svg>
                 </span>
-                <span class="text block text-xs text-black opacity-50">Yes</span>
+                <span class="text block text-xs text-black">Yes</span>
             </label>
             <label class="radio-wrap flex justify-left items-center cursor-pointer relative">
                 <input type="radio" name="dark" class="absolute top-1/2 left-1/2">
@@ -37,7 +39,7 @@
                     <path d="M0.816406 5.5L3.81641 7.5L9.31641 1.5" stroke="white" stroke-width="2.01011"/>
                   </svg>
                 </span>
-                <span class="text block text-xs text-black opacity-50">No</span>
+                <span class="text block text-xs text-black">No</span>
             </label>
           </div>
         </div>
@@ -45,7 +47,7 @@
         <div class="block pb-4 file-wrapper" for="upload-photos">
           <span class="block text-xs text-lightBlack mb-2">Photos</span>
           <label for="upload-photos" class="relative flex w-full items-center justify-center px-4 py-2 bg-white placeholder-blackLight text-black  w-full rounded-xs text-sm focus:ring-1 focus:outline-none focus:border-primary focus:ring-primary cursor-pointer">
-            <input type="file" name="upload-photos" id="upload-photos" class="absolute opacity-0"/>
+            <input type="file" multiple name="upload-photos" id="upload-photos" class="absolute opacity-0"/>
             <span class="custom-file flex items-center justify-center flex-wrap flex-col">
               <svg width="75" height="74" viewBox="0 0 75 74" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <rect x="0.647461" width="74" height="74" fill="url(#pattern0)"/>
@@ -85,13 +87,15 @@
         </label>
 
         <label class="block pt-4">
-          <button class="px-3 xl:px-5 py-3 font-semibold text-md 2xl:text-base bg-primary text-white rounded-sm shadow-sm w-full hover:bg-green duration-500 ease-in-out flex items-center justify-center">
+          <router-link class="px-3 xl:px-5 py-3 font-semibold text-md 2xl:text-base bg-primary text-white rounded-sm shadow-sm w-full hover:bg-green duration-500 ease-in-out flex items-center justify-center" to="/job-listing" tag="button">
                <span class="mr-3">Create a Job Post</span>
                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.14966 8H13.483" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     <path d="M8.81641 3.3335L13.4831 8.00016L8.81641 12.6668" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                </svg>
-          </button>
+          </router-link>
+          <!-- <button class="px-3 xl:px-5 py-3 font-semibold text-md 2xl:text-base bg-primary text-white rounded-sm shadow-sm w-full hover:bg-green duration-500 ease-in-out flex items-center justify-center">
+          </button> -->
         </label>        
       </form>
     </div>   

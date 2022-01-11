@@ -24,7 +24,7 @@
           "
         >
           <div class="footer-logo-wrap mb-3">
-            <a href="#">
+            <a href="./">
               <img
                 src="../assets/images/logo.png"
                 class="footer-logo mx-auto lg:ml-0"
@@ -332,7 +332,7 @@
         "
       >
         <div class="copyright mb-3 sm:mb-0">
-          <p>© Copyright 2021 BidAgree All rights reserved.</p>
+          <p>© Copyright 2021 <router-link class="cursor-pointer hover:text-primary" to="./" tag="button">BidAgree</router-link>. All rights reserved.</p>
         </div>
         <div class="copyright-menus">
           <ul class="text-paraColor">

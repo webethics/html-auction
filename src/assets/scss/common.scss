@@ -30,12 +30,11 @@ button {
      }
 }
 
-input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator {
-     display: none;
-     -webkit-appearance: none;
-}
-
+// input[type="date"]::-webkit-inner-spin-button,
+// input[type="date"]::-webkit-calendar-picker-indicator {
+//      display: none;
+//      -webkit-appearance: none;
+// }
 textarea {
      resize: none;
 }
@@ -79,4 +78,49 @@ textarea {
           }
      }
 
+}
+
+.shadow-dropdown {
+     min-width: 150px;
+     right: initial;
+     left: -15px;
+     top: 98%;
+     padding: 10px 15px;
+     border: 1px solid rgba(219, 219, 219, 0.3);
+     visibility: hidden;
+     opacity: 0;
+     z-index: -1;
+
+     &.right-dropdown {
+          right: -15px;
+          left: initial;
+     }
+}
+
+.it-has-dropdown {
+     &:hover {
+          >a {
+               color: #DB6400;
+
+               .profile-icon {
+                    path {
+                         fill: #DB6400;
+                    }
+               }
+
+               .arrow-icon {
+                    transform: rotate(180deg);
+
+                    path {
+                         stroke: #DB6400;
+                    }
+               }
+          }
+
+          .shadow-dropdown {
+               opacity: 1;
+               visibility: visible;
+               z-index: 9;
+          }
+     }
 }

@@ -42,11 +42,6 @@
                     &:hover {
                          +.design {
                               border-color: #DB6400;
-                              // background-color: #DB6400;
-
-                              // svg {
-                              //      opacity: 1;
-                              // }
                          }
 
                          ~.text {
@@ -57,32 +52,19 @@
                     &:focus {
                          +.design {
                               border-color: #DB6400;
-                              // background-color: #DB6400;
-                         }
-
-                         ~.text {
-                              color: #DB6400;
                          }
                     }
 
                     &:active {
                          +.design {
                               border-color: #DB6400;
-                              // background-color: #DB6400;
-
-                              // svg {
-                              //      opacity: 1;
-                              // }
                          }
 
                          ~.text {
                               color: #DB6400;
                          }
                     }
-
                }
-
-
           }
 
           .file-wrapper {
@@ -99,3 +81,149 @@
 }
 
 /* Create Jobs Css Ends Here */
+
+/* Job Listing Css Starts Here */
+.vue-tabs {
+     .jobs-wrapper {
+          box-shadow: 0px 3px 6px rgba(75, 81, 91, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.15);
+
+          .jobs-search-wrap {
+               input {
+                    &[type="search"] {
+                         width: 425px;
+                         height: 57px;
+                         background-color: #DAE1EC;
+                    }
+               }
+          }
+     }
+
+     .nav-tabs {
+          border: none;
+          padding-right: 325px;
+
+          li {
+               margin-bottom: 0;
+
+               a {
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #808A98 !important;
+                    text-transform: capitalize;
+                    margin-right: 0;
+                    border-radius: 0;
+                    border: none !important;
+                    padding: 14px 20px;
+                    background-color: #F4F7FC;
+                    border-bottom: 4px solid #CFD4DA !important;
+               }
+
+               &.active {
+                    a {
+                         color: #252E3B !important;
+                         background-color: #F4F7FC;
+                         border-color: #DB6400 !important;
+
+                         &:hover {
+                              background-color: #F4F7FC;
+                         }
+
+                         &:focus {
+                              background-color: #F4F7FC;
+                         }
+                    }
+               }
+          }
+     }
+
+     .tab-content {
+          .jobs-wrapper {
+               .jobs-data-list {
+                    .jobs-data-head {
+                         background-color: #F4F7FC;
+                         border-top: 1px solid #CFD4DA;
+                         border-bottom: 1px solid #CFD4DA;
+                         color: #606F89;
+                    }
+
+                    .jobs-data {
+                         color: #606F89;
+                         text-transform: capitalize;
+
+                         .job-description {
+                              overflow: hidden;
+                              text-overflow: ellipsis;
+                              // width: 165px;
+                              white-space: nowrap;
+                         }
+
+                         .job-status {
+                              .status-label {
+                                   min-width: 75px;
+                                   min-height: 20px;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@media screen and (max-width: 1279px) {
+     .vue-tabs {
+          .nav-tabs {
+               padding-right: 150px;
+
+               li {
+                    a {
+                         font-size: 14px;
+                         line-height: 16px;
+                         padding: 11px 15px;
+                         border-bottom-width: 2px !important;
+                    }
+               }
+          }
+
+          .jobs-wrapper {
+               .jobs-search-wrap {
+                    input[type="search"] {
+                         height: 39px;
+                         width: 250px;
+                    }
+               }
+          }
+     }
+}
+
+@media screen and (max-width: 639px) {
+     .vue-tabs {
+          .nav-tabs {
+               padding-right: 0;
+
+               li {
+                    width: 50%;
+               }
+          }
+     }
+
+     .jobs-wrapper {
+          .jobs-search-wrap {
+               input[type="search"] {
+                    width: 100% !important;
+               }
+          }
+     }
+}
+
+@media screen and (max-width: 480px) {
+     .vue-tabs {
+          .nav-tabs {
+
+               li {
+                    width: 100%;
+               }
+          }
+     }
+}
+
+/* Job Listing Css Ends Here */
