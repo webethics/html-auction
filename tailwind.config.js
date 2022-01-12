@@ -137,9 +137,11 @@ module.exports = {
       'dropdown': '0 10px 10px -5px rgba(0, 0, 0, 0.1)',
       'xl': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
       '3xl': '0px 60.2457px 48.1966px rgba(56, 56, 56, 0.1), 0px 39.0482px 28.2262px rgba(56, 56, 56, 0.0759259), 0px 23.2058px 15.3515px rgba(56, 56, 56, 0.0607407), 0px 12.0491px 7.83195px rgba(56, 56, 56, 0.05), 0px 4.90891px 3.92713px rgba(56, 56, 56, 0.0392593), 0px 1.11566px 1.89663px rgba(56, 56, 56, 0.0240741);',
+      'explore-jobs': '0px 0px 10px rgba(0, 0, 0, 0.1)',
     },
     placeholderColor: {
       blackLight: 'rgba(0,0,0,0.5)',
+      black: 'rgba(0,0,0,1)',
     },
 
     backgroundImage: {
@@ -148,6 +150,7 @@ module.exports = {
       "plumber": "url('assets/images/plumber.jpg')",
       "contractor": "url('assets/images/contractor.jpg')",
       "realtor": "url('assets/images/realtor.jpg')",
+      "explore-jobs": "url('assets/images/explore-jobs.jpg')",
     },
   },
 

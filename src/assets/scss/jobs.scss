@@ -169,6 +169,24 @@
      }
 }
 
+/* Job Details */
+.client-jobs-info {
+     span {
+          width: 20px;
+          height: 20px;
+     }
+}
+
+.job-details-back-btn {
+     &:hover {
+          svg {
+               path {
+                    fill: #DB6400;
+               }
+          }
+     }
+}
+
 @media screen and (max-width: 1279px) {
      .vue-tabs {
           .nav-tabs {
