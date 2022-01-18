@@ -111,7 +111,7 @@
 .header-wrapper {
   position: sticky;
   top: 0;
-  z-index: 999999;
+  z-index: 9;
 }
 /* .header-wrapper.header-scrolled .professional {
   padding-top: 0.75rem;
