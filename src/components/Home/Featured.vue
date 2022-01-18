@@ -1,5 +1,6 @@
 <template>
-  <div class="feature-services px-5">
+  <div class="feature-services">
+    <div class="container px-5 mx-auto lg:px-20 2xl:px-28 3xl:px-5">
     <div
       class="container bg-featured-services bg-cover bg-fixed mx-auto px-5 sm:px-10 xl:px-20 3xl:px-28 py-8 sm:py-12 3xl:py-24 sm:rounded-md lg:rounded-lg">
       <div class="flex justify-center md:justify-start">
@@ -7,7 +8,9 @@
           Featured Services
         </h2>
       </div>
-      <div class=" flex flex-col md:flex-row items-stretch justify-between space-x-0 md:space-x-5 lg:space-x-10">
+
+      <div class=" flex flex-col md:flex-row items-stretch justify-between space-x-0 md:space-x-5 lg:space-x-6 3xl:space-x-10">
+       
         <div class="bg-white shadow-lg rounded-md px-4 py-6 md:pb-20 lg:pb-24 lg:pt-9 lg:px-9 text-center md:text-left w-full relative featured-column">
           <div class="fs-img-wrap rounded-full flex align-center flex-wrap mx-auto md:ml-0">
             <img src="../../assets/images/emergency-services.svg" alt="" class=" mx-auto h-100 transition-transform duration-500 ease-in-out" />
@@ -83,11 +86,13 @@
           </a>
         </div>
       </div>
+
       <div class="flex justify-center md:justify-end mt-8">
         <button class="py-2 px-6 xl:py-3 3xl:px-10 3xl:py-5 font-semibold text-md 3xl:text-lg bg-primary text-white rounded-sm shadow-3xl uppercase hover:bg-green duration-500 ease-in-out">
           see all
         </button>
       </div>
+    </div>
     </div>
   </div>
 </template>
