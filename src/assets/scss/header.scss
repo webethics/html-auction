@@ -31,5 +31,14 @@
                padding-top: 0.75rem;
                padding-bottom: 0.75rem;
           }
+          .header-logo {
+               animation: mymove 0.5s linear 1s forwards;
+               // width: 126px;
+               // height: 61px;
+               @keyframes mymove {
+                    from {height: 81px;}
+                    to {height: 61px;}
+               }
+          }
      }
 }
