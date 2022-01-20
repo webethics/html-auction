@@ -1,16 +1,22 @@
 <template>
   <div>
+    <Header />
     <contact-form></contact-form>
+    <Footer />
   </div>
 </template>
 
 <script>
-import ContactForm from "@components/ContactForm.vue";
+import Header from '../../components/Header.vue';
+import ContactForm from "../../components/ContactForm.vue";
+import Footer from '../../components/Footer.vue';
 
 export default {
   name: "ContactUs",
   components: {
+    Header,
     ContactForm,
+    Footer,
   },
 };
 </script>

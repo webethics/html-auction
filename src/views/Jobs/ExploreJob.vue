@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import ExploreJobs from "@components/Jobs/ExploreJobs.vue";
+import ExploreJobs from "../../components/Jobs/ExploreJobs.vue";
 import HeaderLogin from "../../components/HeaderLogin.vue";
 import FooterComponent from "../../components/Footer.vue";
 
 export default {
-  name: "Create",
+  name: "explore",
   components: {
     ExploreJobs,
     HeaderLogin,

@@ -8,7 +8,7 @@
 
 <script>
 import Header from "../../components/HeaderLogin.vue";
-import JobListing from "@components/Jobs/JobListing.vue";
+import JobListing from "../../components/Jobs/JobListing.vue";
 import Footer from "../../components/Footer.vue";
 
 export default {

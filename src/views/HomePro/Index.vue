@@ -12,7 +12,7 @@
 
 <script>
 import HeaderComponent from "../../components/Header.vue";
-import Hero from "@components/HomePro/Hero.vue";
+import Hero from "../../components/HomePro/Hero.vue";
 import Featured from "../../components/HomePro/Featured.vue";
 import BecomePro from "../../components/HomePro/BecomePro.vue";
 import HowItWorks from "../../components/HomePro/HowItWorks.vue";

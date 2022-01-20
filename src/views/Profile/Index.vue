@@ -8,7 +8,7 @@
 
 <script>
 import HeaderLogin from "../../components/HeaderLogin.vue";
-import Profile from "@components/Profile/Profile.vue";
+import Profile from "../../components/Profile/Profile.vue";
 import FooterComponent from "../../components/Footer.vue";
 
 export default {

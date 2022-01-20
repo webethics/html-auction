@@ -8,7 +8,7 @@
 
 <script>
 import HeaderLogin from "../../components/HeaderLogin.vue";
-import BidderProfile from "@components/Profile/BidderProfile.vue";
+import BidderProfile from "../../components/Profile/BidderProfile.vue";
 import FooterComponent from "../../components/Footer.vue";
 
 export default {

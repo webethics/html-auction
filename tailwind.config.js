@@ -1,10 +1,13 @@
-// ./tailwind.config.js
 module.exports = {
+  content: [
+    "./resources/**/*.blade.php",
+    "./resources/**/*.js",
+    "./resources/**/*.vue",
+  ],
+  
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
-  // placeholderColor: (theme) => theme("colors"),
-  //  darkMode: false,
-
-  theme: {
+  darkMode: false, // or 'media' or 'class'
+ theme: {
     screens: {
       sm: "640px",
       md: "768px",
@@ -74,6 +77,7 @@ module.exports = {
         800: "#11635c",
         900: "#0e514b",
       },
+      red: {  DEFAULT: '#FF0000',  '50': '#FFB8B8',  '100': '#FFA3A3',  '200': '#FF7A7A',  '300': '#FF5252',  '400': '#FF2929',  '500': '#FF0000',  '600': '#C70000',  '700': '#8F0000',  '800': '#570000',  '900': '#1F0000'},
       facebook: { DEFAULT: '#1877F2', 50: "#f3f8fe", 100: "#e8f1fe", 200: "#c5ddfc", 300: "#a3c9fa", 400: "#5da0f6", 500: "#1877F2", 600: "#166bda", 700: "#1259b6", 800: "#0e4791", 900: "#0c3a77" },
       white: { DEFAULT: '#FFFFFF', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFFFFF', '300': '#FFFFFF', '400': '#FFFFFF', '500': '#FFFFFF', '600': '#E3E3E3', '700': '#C7C7C7', '800': '#ABABAB', '900': '#8F8F8F' },
       gray: { DEFAULT: '#EFEFEF', '50': '#FFFFFF', '100': '#FFFFFF', '200': '#FFFFFF', '300': '#FFFFFF', '400': '#FFFFFF', '500': '#EFEFEF', '600': '#D3D3D3', '700': '#B7B7B7', '800': '#9B9B9B', '900': '#7F7F7F' },
@@ -138,6 +142,7 @@ module.exports = {
       'xl': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
       '3xl': '0px 60.2457px 48.1966px rgba(56, 56, 56, 0.1), 0px 39.0482px 28.2262px rgba(56, 56, 56, 0.0759259), 0px 23.2058px 15.3515px rgba(56, 56, 56, 0.0607407), 0px 12.0491px 7.83195px rgba(56, 56, 56, 0.05), 0px 4.90891px 3.92713px rgba(56, 56, 56, 0.0392593), 0px 1.11566px 1.89663px rgba(56, 56, 56, 0.0240741);',
       'explore-jobs': '0px 0px 10px rgba(0, 0, 0, 0.1)',
+      'contact': '0px 0px 49px rgba(0, 0, 0, 0.13)'
     },
     placeholderColor: {
       blackLight: 'rgba(0,0,0,0.5)',
@@ -151,12 +156,11 @@ module.exports = {
       "contractor": "url('assets/images/contractor.jpg')",
       "realtor": "url('assets/images/realtor.jpg')",
       "explore-jobs": "url('assets/images/explore-jobs.jpg')",
+      "about-pic": "url('assets/images/about-pic.jpg')",
     },
   },
-
   variants: {
     extend: {},
   },
-
   plugins: [],
-};
+}

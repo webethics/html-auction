@@ -1,0 +1,40 @@
+.contact-form-wrap {
+    input {
+        &[type="text"] {
+            height:75px;
+        }
+        &[type="email"] {
+            height:75px;
+        }
+    }
+}
+.contact-meta {
+    li {
+        min-height: 48px;
+        span {
+            width: 48px;
+            height: 48px;
+            line-height: 48px;
+            border: 1px solid rgba(38, 115, 240, 0.302621);
+            svg {
+                margin: 12px auto 0;
+            }
+        }
+        a {
+            min-height: 48px;
+        }
+    }
+}
+@media screen and (max-width: 1279px) {
+    .contact-form-wrap {
+        input[type="text"] {
+            height: 39px;
+        }
+        input[type="email"] {
+            height: 39px;
+        }
+        textarea {
+            height: 100px;
+        }
+    }
+}

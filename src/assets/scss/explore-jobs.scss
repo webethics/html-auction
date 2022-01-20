@@ -4,20 +4,20 @@
                top: -70px;
                z-index: 9;
           }
-
+ 
           select {
                height: 51px;
           }
-
+ 
           input {
                &[type="text"] {
                     height: 51px;
                }
           }
      }
-}
-
-@media screen and (min-width: 1024px) {
+ }
+ 
+ @media screen and (min-width: 1024px) {
      .explore-jobs {
           .explore-jobs-form {
                .container {
@@ -25,9 +25,9 @@
                }
           }
      }
-}
-
-@media screen and (max-width: 1023px) {
+ }
+ 
+ @media screen and (max-width: 1023px) {
      .explore-jobs {
           .explore-jobs-form {
                .container {
@@ -38,9 +38,9 @@
                }
           }
      }
-}
-
-@media screen and (max-width: 767px) {
+ }
+ 
+ @media screen and (max-width: 767px) {
      .explore-jobs {
           .explore-jobs-form {
                .container {
@@ -48,19 +48,19 @@
                }
           }
      }
-}
-
-@media screen and (max-width: 1279px) {
+ }
+ 
+ @media screen and (max-width: 1279px) {
      .explore-jobs {
           .explore-jobs-form {
                .container {
                     top: -35px;
                }
-
+ 
                select {
                     height: 40px;
                }
-
+ 
                input {
                     &[type="text"] {
                          height: 40px;
@@ -68,4 +68,4 @@
                }
           }
      }
-}
+ }

@@ -8,7 +8,7 @@
 
 <script>
 import HeaderLogin from "../../components/HeaderLogin.vue";
-import ViewBid from "@components/Profile/ViewBid.vue";
+import ViewBid from "../../components/Profile/ViewBid.vue";
 import FooterComponent from "../../components/Footer.vue";
 
 export default {

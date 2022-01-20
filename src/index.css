@@ -64,10 +64,10 @@
 
 /* Become Pro Css Starts Here */
 
-.home-professional .become-pro .container {
+.home-professional .become-pro .containerBG {
      background-color: #D9F0EE;
 }
-.become-pro .container {
+.become-pro .containerBG {
      background: rgba(255, 195, 107, 0.24);
 }
 /* Become Pro Css Ends Here */
@@ -150,7 +150,7 @@ footer .footer-container {border-bottom: 1px solid #C1DCDA;}
      }
      .services-wrap .services-img {
           min-height: 555px;
-     }
+     }    
 }
 @media screen and (max-width: 1365px) {
      .services-wrap .services-img {

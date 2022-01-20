@@ -1,5 +1,6 @@
 select,
 textarea,
+input[type="number"],
 input[type="tel"],
 input[type="date"],
 input[type="text"],
@@ -34,16 +35,87 @@ button {
           }
      }
 }
-
-// input[type="date"]::-webkit-inner-spin-button,
-// input[type="date"]::-webkit-calendar-picker-indicator {
-//      display: none;
-//      -webkit-appearance: none;
-// }
+.internal-banner {
+     max-height: 470px;
+}
+.why-choose {
+     z-index: 8;
+     &:before {
+          content: "";
+          background: url(../images/left-dots.png) no-repeat center / contain;
+          width:468px;
+          height: 1415px;
+          position: absolute;
+          left: -10%;
+          top: -25%;
+          z-index: -1;
+     }
+     &:after {
+          content: "";
+          background: url(../images/right-dots.png) no-repeat center / contain;
+          width:468px;
+          height: 1415px;
+          position: absolute;
+          right: -10%;
+          bottom: 0;
+          z-index: -1;
+     }
+}
 textarea {
      resize: none;
 }
 
+/* Drawer */
+.drawer-layout {
+     .drawer-overlay {
+          z-index: -1;
+          opacity: 0;
+     }
+     .drawer {
+          z-index: 9;
+          transform: translate(100%,0);
+          width: 800px;
+          .drawer-header {
+               svg {
+                    &:hover {
+                         path {
+                              fill:#DB6400;
+                         }
+                    }
+               }
+          }
+          .drawer-content {
+               h2 {
+                    border-color: #d1d1d1;
+               }
+               form {
+                    .file-wrapper {
+                         label {
+                              border: 1px solid #d1d1d1;
+                         }
+                    }
+                    .field-wrap {
+                         svg {
+                              top: 12px;
+                              left: 12px;
+                         }
+                    }
+                    textarea {
+                         height: 130px;
+                    }
+               }
+          }
+     }
+     &.shown {
+          .drawer-overlay {
+               opacity: 0.8;
+               z-index: 8;
+          }
+          .drawer {
+               transform: translate(0,0);
+          }
+     }
+}
 /* Modal Css Here */
 .vm-wrapper {
      .vm {
@@ -126,6 +198,87 @@ textarea {
                opacity: 1;
                visibility: visible;
                z-index: 9;
+          }
+     }
+}
+@media screen and (max-width: 1439px) {
+     .why-choose {
+          &:before {
+               width:468px;
+               height: 1000px;
+               left: -10%;
+               top: -5%;
+          }
+          &:after {
+               width:468px;
+               height: 1000px;
+               right: -10%;
+               bottom: 5%;
+          }
+     }
+     .copyright-menus {
+          li {
+               &:not(:first-child) {
+                    margin-left: 35px;
+               }
+          }
+     }
+}
+@media screen and (max-width: 1367px) {
+     .why-choose {
+          &:before {
+               height: 700px;
+          }
+          &:after {
+               height: 700px;
+          }
+     }
+     .drawer-layout {          
+          .drawer {
+               width: 600px;
+          }
+     }
+}
+@media screen and (max-width: 1279px) {
+     .why-choose {
+          &:before {
+               left: -15%;
+          }
+          &:after {
+               right: -15%;
+          }
+     }
+}
+@media screen and (max-width: 1024px) {
+     .why-choose {
+          &:before {
+               top: -30%;
+               width: 300px;
+          }
+          &:after {
+               bottom: 0;
+               width: 300px;
+          }
+     }
+}
+@media screen and (max-width: 767px) {
+     .why-choose {
+          &:before {
+               content: "";
+               width:168px;
+               height: 650px;
+          }
+          &:after {
+               content: "";
+               width:168px;
+               height: 650px;
+          }
+     }
+}
+@media screen and (max-width: 639px) {
+     .drawer-layout {          
+          .drawer {
+               width: 100%;
           }
      }
 }

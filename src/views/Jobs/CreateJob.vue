@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import CreateJob from "@components/Jobs/CreateJob.vue";
+import CreateJob from "../../components/Jobs/CreateJob.vue";
 import HeaderLogin from "../../components/HeaderLogin.vue";
 import FooterComponent from "../../components/Footer.vue";
 

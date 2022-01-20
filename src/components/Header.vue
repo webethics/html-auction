@@ -91,7 +91,8 @@
       wrapperClass="loginModal"
     >
       <login
-         @closeLoginModal="closeLoginModal"
+        @closeLoginModal="closeLoginModal"
+        @closeResetModal="closeResetModal"
       ></login>
     </vue-modal>
 
@@ -105,6 +106,17 @@
       >
       </signup>
     </vue-modal>
+
+     <!-- Reset Modal -->
+    <vue-modal
+      v-model="showModalReset"
+      wrapperClass="resetModal"
+    >
+      <reset-password
+         @closeModals="closeModals"
+      >
+      </reset-password>
+    </vue-modal>
   </div>
 </template>
 <style scoped>
@@ -113,31 +125,22 @@
   top: 0;
   z-index: 9;
 }
-/* .header-wrapper.header-scrolled .professional {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.header-wrapper.header-scrolled .header-logo {
-  height: 51px;
-}
-
-.header-wrapper.header-scrolled .text-lg {
-  font-size: 16px !important;
-} */
 </style>
 <script>
+import logo from "../assets/images/logo.png";
 import Login from "../components/common/Login.vue";
 import Signup from "../components/common/Signup.vue";
-import bodyScroll from "../../node_modules/body-scroll-freezer";
+import ResetPassword from "../components/common/ResetPassword.vue";
+import bodyScroll from "body-scroll-freezer";
 export default {
   name: "header",
-  components: { Login, Signup },
+  components: { Login, Signup, ResetPassword },
   data() {
     return {
-      showHeaderMenus: false,
+       showHeaderMenus: false,
       showModalLogin: false,
       showModalSignup: false,
+      showModalReset: false,
       inClass: "backInDown",
       outClass: "backOutUp",
       bgInClass: "fadeInUp",
@@ -145,6 +148,7 @@ export default {
       limitPosition: 500,
       scrolled: false,
       lastPosition: 0,
+      logo: logo
     };
   },
   created() {
@@ -170,6 +174,16 @@ export default {
     closeSignUpModal() {
       this.showModalLogin = true;
       this.showModalSignup = false;
+    },
+     closeResetModal() {
+      this.showModalLogin = false;
+      this.showModalSignup = false;
+      this.showModalReset = true;
+    },
+    closeModals() {
+      this.showModalLogin = false;
+      this.showModalSignup = false;
+      this.showModalReset = false;
     },
     handleScroll() {
       if (window.scrollY >= 97) {

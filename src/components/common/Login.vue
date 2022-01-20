@@ -52,7 +52,7 @@
         <label class="block pb-4">
           <span class="block text-sm text-black">
             Forgot your password?
-            <a href="#" class="underline text-primary hover:text-green"
+            <a  @click.prevent="showResetModal" class="underline text-primary hover:text-green"
               >Remind Me</a
             >
           </span>
@@ -235,13 +235,16 @@ export default {
   name: "login",
   data() {
     return {
-      showModalSignup: false,
+      // showModalSignup: false,
     };
   },
   methods: {
     showSignUpModal() {
       this.$emit("closeLoginModal");
     },
+    showResetModal() {
+      this.$emit("closeResetModal");
+    }
   },
 };
 </script>

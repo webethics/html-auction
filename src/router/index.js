@@ -5,8 +5,11 @@ import blogRoutes from './blog.routes'
 import jobsRoutes from './job.routes';
 import homeProRoutes from './homepro.routes'
 import profileRoutes from './profile.routes';
-import ContactUs from '@views/ContactUs/Index.vue'
-import Vuelidate from 'vuelidate'
+import ContactUs from '../views/ContactUs/Index.vue';
+import Vuelidate from 'vuelidate';
+import about from '../views/About.vue';
+import terms from '../views/Terms.vue';
+
 
 Vue.use(VueRouter)
 Vue.use(Vuelidate)
@@ -19,6 +22,16 @@ const routes = [
     path: '/contact-us',
     name: 'ContactUs',
     component: ContactUs
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: about
+  },
+  {
+    path: '/terms',
+    name: 'terms',
+    component: terms
   },
   ...homeRoutes,
   ...homeProRoutes,
