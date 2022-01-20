@@ -60,7 +60,7 @@ export default {
                   <h2 class="proposal-title text-primary font-bold text-lg sm:text-xl md:text-2xl lg:text-six leading-30 border-b border-inputBorder mb-6 sm:mb-11 pb-5 text-center sm:text-left">View Bids (3)</h2>
                   <div class="client-proposal-wrap flex flex-wrap flex-col sm:flex-row border-b border-inputBorder pb-6 mb-6">
                     <div class="client-proposal-left w-full sm:w-1/6">
-                      <div class="client-proposal-img-wrap mb-4 sm:mb-0">
+                      <div class="client-proposal-img-wrap mb-4 sm:mb-0 w-1/2 sm:w-full mx-auto">
                         <img :src="clientProposal" alt="" />
                       </div>
                     </div>
@@ -91,7 +91,7 @@ export default {
                   </div>
                   <div class="client-proposal-wrap flex flex-wrap flex-col sm:flex-row">
                     <div class="client-proposal-left w-full sm:w-1/6">
-                      <div class="client-proposal-img-wrap mb-4 sm:mb-0">
+                      <div class="client-proposal-img-wrap mb-4 sm:mb-0 w-1/2 sm:w-full mx-auto">
                         <img :src="clientProposal" alt="" />
                       </div>
                     </div>
