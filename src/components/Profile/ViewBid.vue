@@ -18,7 +18,7 @@ export default {
 </script>
 <template>
       <div class="job-details mx-auto">
-          <div class="container mx-auto px-5 2xl:px-28 3xl:px-5 3xl:px-5">           
+          <div class="container mx-auto px-5 lg:px-20 2xl:px-28 3xl:px-5">           
             
             <div class="wrap-inner bg-white my-6 md:my-12">
               <div class="container mx-auto flex flex-wrap flex-col md:flex-row">
