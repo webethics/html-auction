@@ -1,8 +1,9 @@
 <template>
-  <div class="become-pro px-5  my-8 sm:my-12 lg:my-20 3xl:my-24">
+  <div class="become-pro my-8 sm:my-12 lg:my-20 3xl:my-24">
+    <div class="container px-5 mx-auto">
     <div
-      class="
-        container
+      class="aayio
+        container containerBG
         mx-auto
         px-5
         py-8
@@ -84,9 +85,21 @@
         <div
           class="sm:w-1/2 flex flex-col items-center text-center mb-10 sm:mb-0"
         >
-          <img src="../../assets/images/become-pro.png" alt="" />
+          <img :src="becomePro" alt="" />
         </div>
       </div>
     </div>
   </div>
+  </div>
 </template>
+<script>
+import becomePro from '../../assets/images/become-pro.png';
+
+export default {
+  data() {
+    return {
+      becomePro:becomePro
+    }    
+  },
+}
+</script>

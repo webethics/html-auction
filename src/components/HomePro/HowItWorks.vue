@@ -86,7 +86,7 @@
             01
           </h2>
           <img
-            src="../../assets/images/choose.svg"
+            :src="choose"
             alt=""
             class="how-images w-full"
           />
@@ -170,7 +170,7 @@
             02
           </h2>
           <img
-            src="../../assets/images/lead.svg"
+            :src="lead"
             alt=""
             class="how-images w-full"
           />
@@ -217,7 +217,7 @@
             03
           </h2>
           <img
-            src="../../assets/images/announcement.svg"
+            :src="announcement"
             alt=""
             class="how-images w-full"
           />
@@ -301,7 +301,7 @@
             04
           </h2>
           <img
-            src="../../assets/images/gold-dollar.svg"
+            :src="goldDollar"
             alt=""
             class="how-images w-full"
           />
@@ -348,7 +348,7 @@
             05
           </h2>
           <img
-            src="../../assets/images/locker.svg"
+            :src="locker"
             alt=""
             class="how-images w-full"
           />
@@ -411,3 +411,23 @@
     </div>
   </div>
 </template>
+
+<script>
+import choose from '../../assets/images/choose.svg'
+import lead from '../../assets/images/lead.svg'
+import announcement from '../../assets/images/announcement.svg'
+import goldDollar from '../../assets/images/gold-dollar.svg'
+import locker from '../../assets/images/locker.svg'
+
+export default {
+  data() {
+    return {
+      choose:choose,
+      lead:lead,
+      announcement:announcement,
+      goldDollar:goldDollar,
+      locker:locker,
+    }
+  },
+}
+</script>
