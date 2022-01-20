@@ -6,12 +6,12 @@
             </div>
         </div>
         <div class="contact">
-            <div class="mx-auto py-8 sm:py-12 3xl:py-24 container">
+            <div class="mx-auto py-8 sm:py-12 3xl:py-24 px-5 lg:px-20 2xl:px-28 3xl:px-5 container">
               <div class="contact-wrapper flex flex-wrap px-5 2xl:px-28 3xl:px-5">
                 <div class="contact-content-wrap text-center md:text-left w-full md:w-2/4 md:pr-20 lg:pr-40">
                     <h3 class="text-lg md:text-xl leading-20 md:leading-30 text-primary capitalize font-bold mb-3">contact</h3>
-                    <h2 class="font-bold text-textColor-500 text-2xl leading-25 md:text-six xl:text-four xl:leading-50 3xl:text-three 3xl:leading-63 capitalize mb-4">contact now</h2>                  
-                    <p class="text-paraColor text-sm md:text-base leading-25 md:leading-30 mb-10">
+                    <h2 class="font-bold text-textColor-500 text-2xl leading-25 md:text-thirty md:leading-40 3xl:text-three 3xl:leading-63 capitalize mb-4">contact now</h2>                  
+                    <p class="text-paraColor text-sm md:text-base leading-25 mb-10">
                         Humans to study and evolve the physical elements that are present in their lives.
                     </p>
                     <ul class="contact-meta flex flex-wrap items-center justify-center">
@@ -46,7 +46,7 @@
                     </ul>
                 </div>
                 <div class="contact-form-wrap text-center md:text-left w-full md:w-2/4 mt-10 lg:mt-0">
-                    <div class="wrap-inner rounded shadow-contact p-5 lg:p-10 xl:p-20">
+                    <div class="wrap-inner rounded shadow-contact p-5 lg:p-10 3xl:p-20">
                       <h3 class="text-lg md:text-xl leading-20 md:leading-30 text-primary font-bold">Want us to contact you</h3>
                       <p class="mb-0 text-textColor text-sm leading-20 mb-6">leave a message</p>
                       <form action="">
@@ -79,7 +79,7 @@
                 </div>
               </div>
             </div>
-            <div class="mx-auto pb-8 sm:pb-12 3xl:pb-24 container px-5">
+            <div class="mx-auto pb-8 sm:pb-12 3xl:pb-24 container px-5 lg:px-20 2xl:px-28 3xl:px-5">
               <img :src="contactMap" alt="" />
             </div>
         </div>
