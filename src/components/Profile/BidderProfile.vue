@@ -26,18 +26,18 @@ export default {
 };
 </script>
 <template>
-     <div class="job-details mx-auto px-5">
+     <div class="job-details mx-auto">
           <div class="container mx-auto">
                <div class="wrap-inner bg-white my-6 md:my-12">
-                    <div class="container mx-auto flex flex-wrap flex-col md:flex-row">
+                    <div class="container mx-auto flex flex-wrap flex-col md:flex-row px-5 lg:px-20 2xl:px-28 3xl:px-5">
                          <div class="job-details-left w-full md:w-3/5 mb-4 md:mb-0">
                               <div class="explore-job-outer flex flex-wrap flex-col">
-                                   <div class="explore-job-image w-full">
+                                   <div class="explore-job-image w-full mb-6">
                                         <img :src="exploreJobFour" alt="" class="w-full" />
                                    </div>
-                                   <div class="explore-job-content pt-4 text-center sm:text-left">
-                                        <h2 class="font-bold text-lg md:text-xl leading-30">Plumbing</h2>
-                                        <p class="text-sm lg:text-base leading-25 text-textColor-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu pellentesque cras in aenean nullam. Venenatis aliquet at eu in mauris nulla hac fames proin. Amet duis sit tortor, nunc at. Semper tortor non volutpat duis. eu in mauris nulla hac fames proin. Amet duis sit tortor, nunc at. Semper tortor non volutpat duis. eu in mauris nulla hac fames proin. Amet duis sit tortor, nunc at. Semper tortor non volutpat duis.  Semper tortor non volutpat duis. eu in mauris nulla hac fames proin. Amet duis sit tortor, nunc at. Semper tortor non volutpat duis.</p>
+                                   <div class="explore-job-content text-center sm:text-left">
+                                        <h2 class="font-bold text-lg md:text-xl leading-30 mb-2">Plumbing</h2>
+                                        <p class="text-sm md:text-base leading-25 text-textColor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu pellentesque cras in aenean nullam. Venenatis aliquet at eu in mauris nulla hac fames proin. Amet duis sit tortor, nunc at. Semper tortor non volutpat duis. eu in mauris nulla hac fames proin. Amet duis sit tortor, nunc at. Semper tortor non volutpat duis. eu in mauris nulla hac fames proin. Amet duis sit tortor, nunc at. Semper tortor non volutpat duis.  Semper tortor non volutpat duis. eu in mauris nulla hac fames proin. Amet duis sit tortor, nunc at. Semper tortor non volutpat duis.</p>
                                         <div class="explore-job-meta flex flex-wrap flex-col sm:flex-row sm:items-center sm:justify-between my-4 space-y-4 sm:sapce-y-0">
                                              <div class="explore-btns">
                                                   <button class="bg-textColor-50 text-black border border-blue text-xs leading-20 rounded-xs py-1 px-2 capitalize hover:bg-green hover:text-white hover:border-green  duration-500 ease-in-out shadow-explore-jobs mr-2">Emergency</button>
@@ -49,7 +49,7 @@ export default {
                                              </div>
                                         </div>
                                         <h2 class="font-bold text-sm lg:text-base  leading-30">Address</h2>
-                                        <p class="text-sm lg:text-base leading-25 text-textColor-400">400 Broad St, Seattle, WA 98109</p>
+                                        <p class="text-sm md:text-base leading-25 text-textColor">400 Broad St, Seattle, WA 98109</p>
                                    </div>
                               </div>
                          </div>
@@ -84,7 +84,7 @@ export default {
                          </div>
                     </div>
 
-                    <div class="container mx-auto flex flex-wrap mt-4 md:mt-8 lg:mt-12">
+                    <div class="container mx-auto flex flex-wrap mt-4 md:mt-8 lg:mt-12 px-5 lg:px-20 2xl:px-28 3xl:px-5">
                          <div class="job-history w-full rounded-sm">
                               <div class="job-history-head px-4 md:px-8 py-4 md:py-6">
                                    <h2 class="font-bold text-lg lg:text-2xl xl:text-six text-lightBlack leading-30">Client  History</h2>
@@ -116,12 +116,12 @@ export default {
                          </div>
                     </div>
 
-                    <div class="container mx-auto flex flex-wrap mt-12">
+                    <div class="container mx-auto flex flex-wrap mt-12 px-5 lg:px-20 2xl:px-28 3xl:px-5">
                          <div class="client-proposal border border-inputBorder rounded-xs px-5 sm:px-7 py-5 sm:py-10">
                               <h2 class="proposal-title text-primary font-bold text-lg sm:text-xl md:text-2xl lg:text-six leading-30 border-b border-inputBorder mb-6 sm:mb-11 pb-5 text-center sm:text-left">Proposal</h2>
                               <div class="client-proposal-wrap flex flex-wrap flex-col sm:flex-row">
                                    <div class="client-proposal-left w-full sm:w-1/6">
-                                        <div class="client-proposal-img-wrap mb-4 sm:mb-0">
+                                        <div class="client-proposal-img-wrap mb-4 sm:mb-0 w-1/2 sm:w-full mx-auto">
                                              <img :src="clientProposal" alt="" />
                                         </div>
                                    </div>
@@ -139,9 +139,9 @@ export default {
                                              </div>                             
                                         </div>
                                         <h2 class="font-bold text-sm leading-30 capitalize">Cover Letter</h2>
-                                        <p class="text-xs leading-25 text-paraColor mb-5">Fames dui faucibus massa hendrerit morbi amet euismod odio adipiscing. Ornare senectus placerat fermentum et magna tortor quam venenatis. Semper egestas lorem venenatis aliquet faucibus vitae nibh commodo cursus. Venenatis id egestas aliquet morbi sapien lorem. Morbi lorem convallis dignissim cursus ac pulvinar in ac leo. Odio ut donec sociis ut eget pellentesque nibh aliquam. Non felis, orci fermentum ornare. Massa morbi ultrices amet, viverra id dapibus amet ac. Pellentesque arcu vulputate ultrices ut nisl. In vel id tortor tortor nec montes, sem pellentesque ac. A nunc, augue massa sit vitae etiam ut neque.</p>
-                                        <p class="text-xs leading-25 text-paraColor mb-5">Ultrices porttitor adipiscing risus viverra senectus id cum.Egestas justo, ornare enim, etiam elementum. Lorem iaculis ultrices gravida lobortis sed ornare. Euismod purus phasellus senectus morbi. Suspendisse penatibus sed purus eget a, ipsum arcu. Aenean erat gravida nulla in nisl, lectus. Montes, euismod lacus at aliquam ridiculus vitae enim vulputate fringilla. Libero viverra porttitor quam nulla maecenas risus risus, feugiat. Ac est fermentum parturient et erat. Ultrices malesuada vitae accumsan purus nec convallis suspendisse orci.</p>
-                                        <p class="text-xs leading-25 text-paraColor mb-5">Id pellentesque pharetra, et sed justo, vitae id sed. Adipiscing ultricies at vitae, tellus sollicitudin sagittis posuere nulla nulla. Venenatis vitae augue sit feugiat massa nunc. Sed arcu sed scelerisque volutpat sed turpis turpis. Sagittis commodo, bibendum ante egestas sed vestibulum. Egestas nulla et non elementum ultrices. Pulvinar volutpat ultrices tristique congue. Eu et pulvinar eu faucibus non est risus ullamcorper. Duis odio fusce id quis id.Sagittis hendrerit donec turpis donec feugiat sagittis, placerat non. Ipsum sem sit volutpat sed sed. Nulla nec, diam vitae ullamcorper tincidunt dictum gravida eget. Adipiscing elit tellus, rhoncus imperdiet vel aliquam cras quam. Vel praesent sagittis vitae, vel, massa in feugiat quisque.</p>
+                                        <p class="text-sm leading-25 text-paraColor mb-5">Fames dui faucibus massa hendrerit morbi amet euismod odio adipiscing. Ornare senectus placerat fermentum et magna tortor quam venenatis. Semper egestas lorem venenatis aliquet faucibus vitae nibh commodo cursus. Venenatis id egestas aliquet morbi sapien lorem. Morbi lorem convallis dignissim cursus ac pulvinar in ac leo. Odio ut donec sociis ut eget pellentesque nibh aliquam. Non felis, orci fermentum ornare. Massa morbi ultrices amet, viverra id dapibus amet ac. Pellentesque arcu vulputate ultrices ut nisl. In vel id tortor tortor nec montes, sem pellentesque ac. A nunc, augue massa sit vitae etiam ut neque.</p>
+                                        <p class="text-sm leading-25 text-paraColor mb-5">Ultrices porttitor adipiscing risus viverra senectus id cum.Egestas justo, ornare enim, etiam elementum. Lorem iaculis ultrices gravida lobortis sed ornare. Euismod purus phasellus senectus morbi. Suspendisse penatibus sed purus eget a, ipsum arcu. Aenean erat gravida nulla in nisl, lectus. Montes, euismod lacus at aliquam ridiculus vitae enim vulputate fringilla. Libero viverra porttitor quam nulla maecenas risus risus, feugiat. Ac est fermentum parturient et erat. Ultrices malesuada vitae accumsan purus nec convallis suspendisse orci.</p>
+                                        <p class="text-sm leading-25 text-paraColor mb-5">Id pellentesque pharetra, et sed justo, vitae id sed. Adipiscing ultricies at vitae, tellus sollicitudin sagittis posuere nulla nulla. Venenatis vitae augue sit feugiat massa nunc. Sed arcu sed scelerisque volutpat sed turpis turpis. Sagittis commodo, bibendum ante egestas sed vestibulum. Egestas nulla et non elementum ultrices. Pulvinar volutpat ultrices tristique congue. Eu et pulvinar eu faucibus non est risus ullamcorper. Duis odio fusce id quis id.Sagittis hendrerit donec turpis donec feugiat sagittis, placerat non. Ipsum sem sit volutpat sed sed. Nulla nec, diam vitae ullamcorper tincidunt dictum gravida eget. Adipiscing elit tellus, rhoncus imperdiet vel aliquam cras quam. Vel praesent sagittis vitae, vel, massa in feugiat quisque.</p>
                                         <button class="py-2 px-6 xl:py-4 3xl:px-20 font-semibold text-md 2xl:text-lg bg-primary text-white rounded-sm shadow-sm hover:bg-green duration-500 ease-in-out uppercase">edit</button>
                                    </div>
                               </div>
