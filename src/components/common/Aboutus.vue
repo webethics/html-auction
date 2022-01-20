@@ -24,10 +24,10 @@ export default {
             </div>
         </div>
         <div class="mx-auto py-8 sm:py-12 3xl:py-24 max-w-screen-lg px-5">
-            <p class="text-textColor-500 text-sm md:text-lg xl:text-xl text-center leading-20 sm:leading-25 xl:leading-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p> 
+            <p class="text-textColor-500 text-sm md:text-base 3xl:text-xl text-center leading-20 sm:leading-25 3xl:leading-30">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p> 
         </div>
         <div class="about-pic">
-            <img :src="aboutPic" alt="" />
+            <img :src="aboutPic" alt="" class="mx-auto" />
         </div>
         <div class="why-choose relative overflow-hidden">
             <div class="mx-auto py-8 sm:py-12 3xl:py-24 max-w-screen-lg px-5">
@@ -39,27 +39,27 @@ export default {
                     <div class="about-image w-1/3 sm:w-1/5 xl:2/5 mb-4">
                         <img :src="weatherProof" alt="" class="w-full">
                     </div>
-                    <div class="about-col-content w-full sm:w-3/5 sm:pl-8 lg:pl-16 text-center sm:text-left">
-                        <h2 class="font-bold text-lg leading-20 md:text-six md:leading-25 xl:text-four xl:leading-50 text-textColor-500 capitalize mb-2 md:mb-6">Weatherproof</h2>
-                        <p class="text-paraColor text-sm md:text-lg leading-20">IP67 weatherproof design for use in multiple scenarios</p>
+                    <div class="about-col-content w-full sm:w-3/5 sm:pl-8 lg:pl-10 3xl:pl-16 text-center sm:text-left">
+                        <h2 class="font-bold text-lg leading-20 md:text-six md:leading-25 xl:text-thirty 3xl:text-four xl:leading-50 text-textColor-500 capitalize mb-2 md:mb-3 3xl:mb-6">Weatherproof</h2>
+                        <p class="text-paraColor text-sm md:text-base 3xl:text-lg leading-20">IP67 weatherproof design for use in multiple scenarios</p>
                     </div>
                 </div>
                 <div class="about-columns flex flex-wrap items-center justify-center flex-row-reverse py-4 xl:py-9">
                     <div class="about-image w-1/3 sm:w-1/5 xl:2/5 mb-4">
                         <img :src="mic" alt="" class="w-full">
                     </div>
-                    <div class="about-col-content w-full sm:w-3/5 sm:pr-8 lg:pr-16 text-center sm:text-left">
-                        <h2 class="font-bold text-lg leading-20 md:text-six md:leading-25 xl:text-four xl:leading-50 text-textColor-500 capitalize mb-2 md:mb-6">Built-in Microphone</h2>
-                        <p class="text-paraColor text-sm md:text-lg leading-20">The high quality microphone picks up sounds clearly while monitoring.</p>
+                    <div class="about-col-content w-full sm:w-3/5 sm:pr-8 lg:pr-10 3xl:pr-16 text-center sm:text-left">
+                        <h2 class="font-bold text-lg leading-20 md:text-six md:leading-25 xl:text-thirty 3xl:text-four xl:leading-50 text-textColor-500 capitalize mb-2 md:mb-3 3xl:mb-6">Built-in Microphone</h2>
+                        <p class="text-paraColor text-sm md:text-base 3xl:text-lg leading-20">The high quality microphone picks up sounds clearly while monitoring.</p>
                     </div>
                 </div>
                 <div class="about-columns flex flex-wrap items-center justify-center py-4 xl:py-9">
                     <div class="about-image w-1/3 sm:w-1/5 xl:2/5 mb-4">
                         <img :src="wifi" alt="" class="w-full">
                     </div>
-                    <div class="about-col-content w-full sm:w-3/5 sm:pl-8 lg:pl-16 text-center sm:text-left">
-                        <h2 class="font-bold text-lg leading-20 md:text-six md:leading-25 xl:text-four xl:leading-50 text-textColor-500 capitalize mb-2 md:mb-6">Built-in Wi-Fi Hotspot</h2>
-                        <p class="text-paraColor text-sm md:text-lg leading-20">The video feed and play recordings even when there is no Internet connection</p>
+                    <div class="about-col-content w-full sm:w-3/5 sm:pl-8 lg:pl-10 3xl:pl-16 text-center sm:text-left">
+                        <h2 class="font-bold text-lg leading-20 md:text-six md:leading-25 xl:text-thirty 3xl:text-four xl:leading-50 text-textColor-500 capitalize mb-2 md:mb-3 3xl:mb-6">Built-in Wi-Fi Hotspot</h2>
+                        <p class="text-paraColor text-sm md:text-base 3xl:text-lg leading-20">The video feed and play recordings even when there is no Internet connection</p>
                     </div>
                 </div>
 
