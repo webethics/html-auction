@@ -1,14 +1,28 @@
 <script>
+import exploreJobFour from '../../assets/images/explore-job-4.jpg';
+import exploreJobThree from '../../assets/images/explore-job-3.jpg';
+import exploreJobTwo from '../../assets/images/explore-job-2.jpg';
+import exploreJobOne from '../../assets/images/explore-job-1.jpg';
+import exploreJobMap from '../../assets/images/explore-jobs-map.jpg';
 export default {
   name: "explorejobs",
   components: {},
+  data() {
+       return {
+          exploreJobFour:exploreJobFour,
+          exploreJobThree:exploreJobThree,
+          exploreJobTwo:exploreJobTwo,
+          exploreJobOne:exploreJobOne,
+          exploreJobMap:exploreJobMap
+       }
+  }
 };
 </script>
 <template>
      <div class="explore-jobs">
           <div class="explore-jobs-banner bg-cover bg-fixed bg-explore-jobs bg-center py-8 sm:py-16 md:pt-20 md:pb-24 xl:pb-36 2xl:pt-24 3xl:pt-36 3xl:pb-44">
                <div class="container mx-auto">
-                    <h2 class="flex items-center justify-center font-bold text-six md:text-five lg:text-four 3xl:text-two text-white leading-90 uppercase">Explore Jobs</h2>
+                    <h2 class="flex items-center justify-center font-bold leading-25 md:leading-36 lg:leading-50 xl:leading-63 2xl:leading-70 3xl:leading-90 text-six md:text-five lg:text-four 3xl:text-two text-white uppercase">Explore Jobs</h2>
                </div>   
           </div>
           <div class="explore-jobs-form relative py-5 px-4">
@@ -47,13 +61,13 @@ export default {
                </div>   
           </div>
 
-          <div class="explore-jobs-listing pt-5 xl:pt-28 2xl:pt-32 pb-14 xl:pb-20 px-4">
-               <div class="container mx-auto flex flex-wrap mb-10 xl:mb-16 flex-col lg:flex-row">
+          <div class="explore-jobs-listing pt-5 xl:pt-28 2xl:pt-32 pb-14 xl:pb-20 px-5">
+               <div class="container mx-auto flex flex-wrap mb-10 xl:mb-16 flex-col lg:flex-row lg:px-5 xl:px-20 2xl:px-28 3xl:px-5">
                     <div class="explore-job-listing-left w-full lg:w-3/5 lg:px-4">
 
                          <div class="explore-job-outer flex flex-wrap rounded shadow-explore-jobs p-6 border border-inputBorder mb-4 flex-col sm:flex-row">
                               <div class="explore-job-image w-full sm:w-2/6">
-                                   <img src="../../assets/images/explore-job-4.jpg" alt="" class="w-full" />
+                                   <img :src="exploreJobFour" alt="" class="w-full" />
                               </div>
                               <div class="explore-job-content w-full sm:w-4/6 sm:pl-5 pt-4 sm:pt-0">
                                    <h2 class="font-bold text-base leading-30">Plumbing</h2>
@@ -74,7 +88,7 @@ export default {
                          </div>
                          <div class="explore-job-outer flex flex-wrap rounded shadow-explore-jobs p-6 border border-inputBorder mb-4 flex-col sm:flex-row">
                               <div class="explore-job-image w-full sm:w-2/6">
-                                   <img src="../../assets/images/explore-job-3.jpg" alt="" class="w-full" />
+                                   <img :src="exploreJobThree" alt="" class="w-full" />
                               </div>
                               <div class="explore-job-content w-full sm:w-4/6 sm:pl-5 pt-4 sm:pt-0">
                                    <h2 class="font-bold text-base leading-30">House Keeping</h2>
@@ -94,7 +108,7 @@ export default {
                          </div>
                          <div class="explore-job-outer flex flex-wrap rounded shadow-explore-jobs p-6 border border-inputBorder mb-4 flex-col sm:flex-row">
                               <div class="explore-job-image w-full sm:w-2/6">
-                                   <img src="../../assets/images/explore-job-2.jpg" alt="" class="w-full" />
+                                   <img :src="exploreJobTwo" alt="" class="w-full" />
                               </div>
                               <div class="explore-job-content w-full sm:w-4/6 sm:pl-5 pt-4 sm:pt-0">
                                    <h2 class="font-bold text-base leading-30">House Keeping</h2>
@@ -115,7 +129,7 @@ export default {
                          </div>
                          <div class="explore-job-outer flex flex-wrap rounded shadow-explore-jobs p-6 border border-inputBorder mb-4 lg:mb-0 flex-col sm:flex-row">
                               <div class="explore-job-image w-full sm:w-2/6">
-                                   <img src="../../assets/images/explore-job-1.jpg" alt="" class="w-full" />
+                                   <img :src="exploreJobOne" alt="" class="w-full" />
                               </div>
                               <div class="explore-job-content w-full sm:w-4/6 sm:pl-5 pt-4 sm:pt-0">
                                    <h2 class="font-bold text-base leading-30">House Keeping</h2>
@@ -137,11 +151,11 @@ export default {
                     </div>
                     <div class="explore-jobs-listing-map w-full lg:w-2/5 lg:px-4">
                          <div class="explore-jobs-map h-full">
-                              <img src="../../assets/images/explore-jobs-map.jpg" alt="" class="w-full h-full">
+                              <img :src="exploreJobMap" alt="" class="w-full h-full">
                          </div>
                     </div>
                </div>
-               <div class="container mx-auto px-4 text-center">
+               <div class="container mx-auto text-center px-5 xl:px-20 2xl:px-28 3xl:px-5">
                     <button class="py-2 px-6 xl:py-3 3xl:px-10 3xl:py-5 font-semibold text-md 3xl:text-lg bg-primary text-white rounded-sm shadow-3xl uppercase hover:bg-green duration-500 ease-in-out">show more</button>
                </div>
           </div>
