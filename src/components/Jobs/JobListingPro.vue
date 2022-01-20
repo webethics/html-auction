@@ -15,7 +15,7 @@ export default {
 <template>
      <div class="job-listing job-listing-pro mx-auto">
           <div class="container mx-auto px-5 lg:px-20 2xl:px-28 3xl:px-5">
-               <h2 class="flex items-center justify-center font-bold text-six md:text-five lg:text-four xl:text-three 3xl:text-two mt-12 text-lightBlack leading-90">Job Listing</h2>
+               <h2 class="flex items-center justify-center font-bold text-six md:text-five lg:text-four 3xl:text-two mt-12 text-lightBlack leading-90">Job Listing</h2>
                <div class="wrap-inner bg-white my-6 md:my-12">
                     <form action="" class="relative">
                          <router-link class="block mx-auto py-2 px-6 xl:py-3 3xl:px-24 3xl:py-3 font-semibold text-md 2xl:text-lg bg-primary text-white rounded-sm shadow-sm hover:bg-green duration-500 ease-in-out sm:absolute right-0 mb-2 sm:mb-0" to="/create-job" tag="button">Create Job</router-link>  
