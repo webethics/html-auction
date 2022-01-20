@@ -62,16 +62,16 @@ export default {
                                                   <div class="text-xs leading-14 py-2 sm:py-6 xl:pl-16 job-status text-center xl:text-left hidden md:inline-block">
                                                       <span class="status-label bg-jobActive text-white uppercase inline-block text-center rounded-md text-small leading-20">active</span>
                                                   </div>
-                                                  <div class="text-xs leading-14 py-2 sm:py-4 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse">
-                                                      <a href="#" class="it-has-dropdown relative">
+                                                 <div class="text-xs leading-14 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse text-center">
+                                                       <div class="relative it-has-dropdown inline-block py-2 sm:py-4  cursor-pointer">
                                                             <img :src="more" class="sm:mx-auto cursor-pointer dropdown-with-arrow" />
-                                                       </a>
-                                                      <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown rounded-sm">
-                                                            <ul class="sub-menu">
-                                                                 <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
-                                                                 <li><a href="#" class="hover:text-primary block">Delete</a></li>
-                                                            </ul>    
-                                                       </span>
+                                                            <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown center-dropdown rounded-sm">
+                                                                      <ul class="sub-menu">
+                                                                           <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
+                                                                           <li><a href="#" class="hover:text-primary block">Delete</a></li>
+                                                                      </ul>    
+                                                                 </span>
+                                                            </div>
                                                       <span class="job-status sm:mt-4 block md:hidden text-center"><span class="status-label bg-jobActive text-white uppercase inline-block text-center rounded-md text-small leading-20">active</span></span>
                                                   </div>
                                             </div>
@@ -92,17 +92,17 @@ export default {
                                                      <span class="block">(4)</span>
                                                   </div>
                                                  <div class="text-xs leading-14 py-2 sm:py-6 xl:pl-16 job-status text-center xl:text-left hidden md:inline-block"><span class="status-label bg-jobCompleted text-white uppercase inline-block text-center rounded-md text-small leading-20">completed</span></div>
-                                                  <div class="text-xs leading-14 py-2 sm:py-4 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse">
-                                                      <a href="#" class="it-has-dropdown relative">
+                                                  <div class="text-xs leading-14 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse text-center">
+                                                       <div class="relative it-has-dropdown inline-block py-2 sm:py-4  cursor-pointer">
                                                             <img :src="more" class="sm:mx-auto cursor-pointer dropdown-with-arrow" />
-                                                       </a>
-                                                      <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown rounded-sm">
-                                                            <ul class="sub-menu">
-                                                                 <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
-                                                                 <li><a href="#" class="hover:text-primary block">Delete</a></li>
-                                                            </ul>    
-                                                       </span>
-                                                      <span class="job-status sm:mt-4 block md:hidden text-center"><span class="status-label bg-jobCompleted text-white uppercase inline-block text-center rounded-md text-small leading-20">completed</span></span>
+                                                            <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown center-dropdown rounded-sm">
+                                                                      <ul class="sub-menu">
+                                                                           <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
+                                                                           <li><a href="#" class="hover:text-primary block">Delete</a></li>
+                                                                      </ul>    
+                                                                 </span>
+                                                            </div>
+                                                      <span class="job-status sm:mt-4 block md:hidden text-center"><span class="status-label bg-jobActive text-white uppercase inline-block text-center rounded-md text-small leading-20">active</span></span>
                                                   </div>
                                             </div>
                                        </div>
@@ -151,16 +151,16 @@ export default {
                                                   <div class="text-xs leading-14 py-2 sm:py-6 xl:pl-16 job-status text-center xl:text-left hidden md:inline-block">
                                                       <span class="status-label bg-jobActive text-white uppercase inline-block text-center rounded-md text-small leading-20">active</span>
                                                   </div>
-                                                  <div class="text-xs leading-14 py-2 sm:py-4 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse">
-                                                      <a href="#" class="it-has-dropdown relative">
+                                                 <div class="text-xs leading-14 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse text-center">
+                                                       <div class="relative it-has-dropdown inline-block py-2 sm:py-4  cursor-pointer">
                                                             <img :src="more" class="sm:mx-auto cursor-pointer dropdown-with-arrow" />
-                                                       </a>
-                                                      <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown rounded-sm">
-                                                            <ul class="sub-menu">
-                                                                 <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
-                                                                 <li><a href="#" class="hover:text-primary block">Delete</a></li>
-                                                            </ul>    
-                                                       </span>
+                                                            <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown center-dropdown rounded-sm">
+                                                                      <ul class="sub-menu">
+                                                                           <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
+                                                                           <li><a href="#" class="hover:text-primary block">Delete</a></li>
+                                                                      </ul>    
+                                                                 </span>
+                                                            </div>
                                                       <span class="job-status sm:mt-4 block md:hidden text-center"><span class="status-label bg-jobActive text-white uppercase inline-block text-center rounded-md text-small leading-20">active</span></span>
                                                   </div>
                                             </div>
@@ -181,16 +181,16 @@ export default {
                                                      <span class="block">(4)</span>
                                                   </div>
                                                  <div class="text-xs leading-14 py-2 sm:py-6 xl:pl-16 job-status text-center xl:text-left hidden md:inline-block"><span class="status-label bg-jobActive text-white uppercase inline-block text-center rounded-md text-small leading-20">active</span></div>
-                                                  <div class="text-xs leading-14 py-2 sm:py-4 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse">
-                                                      <a href="#" class="it-has-dropdown relative">
+                                                 <div class="text-xs leading-14 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse text-center">
+                                                       <div class="relative it-has-dropdown inline-block py-2 sm:py-4  cursor-pointer">
                                                             <img :src="more" class="sm:mx-auto cursor-pointer dropdown-with-arrow" />
-                                                       </a>
-                                                      <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown rounded-sm">
-                                                            <ul class="sub-menu">
-                                                                 <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
-                                                                 <li><a href="#" class="hover:text-primary block">Delete</a></li>
-                                                            </ul>    
-                                                       </span>
+                                                            <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown center-dropdown rounded-sm">
+                                                                      <ul class="sub-menu">
+                                                                           <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
+                                                                           <li><a href="#" class="hover:text-primary block">Delete</a></li>
+                                                                      </ul>    
+                                                                 </span>
+                                                            </div>
                                                       <span class="job-status sm:mt-4 block md:hidden text-center"><span class="status-label bg-jobActive text-white uppercase inline-block text-center rounded-md text-small leading-20">active</span></span>
                                                   </div>
                                             </div>
@@ -240,17 +240,17 @@ export default {
                                                   <div class="text-xs leading-14 py-2 sm:py-6 xl:pl-16 job-status text-center xl:text-left hidden md:inline-block">
                                                       <span class="status-label bg-jobCompleted text-white uppercase inline-block text-center rounded-md text-small leading-20">completed</span>
                                                   </div>
-                                                  <div class="text-xs leading-14 py-2 sm:py-4 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse">
-                                                      <a href="#" class="it-has-dropdown relative">
+                                                  <div class="text-xs leading-14 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse text-center">
+                                                       <div class="relative it-has-dropdown inline-block py-2 sm:py-4  cursor-pointer">
                                                             <img :src="more" class="sm:mx-auto cursor-pointer dropdown-with-arrow" />
-                                                       </a>
-                                                      <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown rounded-sm">
-                                                            <ul class="sub-menu">
-                                                                 <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
-                                                                 <li><a href="#" class="hover:text-primary block">Delete</a></li>
-                                                            </ul>    
-                                                       </span>
-                                                      <span class="job-status sm:mt-4 block md:hidden text-center"><span class="status-label bg-jobCompleted text-white uppercase inline-block text-center rounded-md text-small leading-20">completed</span></span>
+                                                            <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown center-dropdown rounded-sm">
+                                                                      <ul class="sub-menu">
+                                                                           <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
+                                                                           <li><a href="#" class="hover:text-primary block">Delete</a></li>
+                                                                      </ul>    
+                                                                 </span>
+                                                            </div>
+                                                      <span class="job-status sm:mt-4 block md:hidden text-center"><span class="status-label bg-jobActive text-white uppercase inline-block text-center rounded-md text-small leading-20">active</span></span>
                                                   </div>
                                             </div>
                                             <div class="jobs-data grid grid-cols-1 sm:grid-cols-4 md:grid-cols-7 lg:grid-cols-8 sm:gap-2 p-4 sm:py-0 xl:px-8 bg-tableData sm:items-center">
@@ -270,17 +270,17 @@ export default {
                                                      <span class="block">(4)</span>
                                                   </div>
                                                  <div class="text-xs leading-14 py-2 sm:py-6 xl:pl-16 job-status text-center xl:text-left hidden md:inline-block"><span class="status-label bg-jobCompleted text-white uppercase inline-block text-center rounded-md text-small leading-20">completed</span></div>
-                                                  <div class="text-xs leading-14 py-2 sm:py-4 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse">
-                                                      <a href="#" class="it-has-dropdown relative">
+                                                  <div class="text-xs leading-14 job-action flex sm:block flex-wrap items-center justify-between flex-row-reverse text-center">
+                                                       <div class="relative it-has-dropdown inline-block py-2 sm:py-4  cursor-pointer">
                                                             <img :src="more" class="sm:mx-auto cursor-pointer dropdown-with-arrow" />
-                                                       </a>
-                                                      <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown rounded-sm">
-                                                            <ul class="sub-menu">
-                                                                 <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
-                                                                 <li><a href="#" class="hover:text-primary block">Delete</a></li>
-                                                            </ul>    
-                                                       </span>
-                                                      <span class="job-status sm:mt-4 block md:hidden text-center"><span class="status-label bg-jobCompleted text-white uppercase inline-block text-center rounded-md text-small leading-20">completed</span></span>
+                                                            <span class="block lg:inline-block relative lg:absolute bg-white text-sm leading-20 mx-auto shadow-dropdown center-dropdown rounded-sm">
+                                                                      <ul class="sub-menu">
+                                                                           <li class="mb-1"><a href="#" class="hover:text-primary block">Edit</a></li>
+                                                                           <li><a href="#" class="hover:text-primary block">Delete</a></li>
+                                                                      </ul>    
+                                                                 </span>
+                                                            </div>
+                                                      <span class="job-status sm:mt-4 block md:hidden text-center"><span class="status-label bg-jobActive text-white uppercase inline-block text-center rounded-md text-small leading-20">active</span></span>
                                                   </div>
                                             </div>
                                        </div>
