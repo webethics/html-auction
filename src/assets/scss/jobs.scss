@@ -106,7 +106,7 @@
                margin-bottom: 0;
 
                a {
-                    font-size: 16px;
+                    font-size: 14px;
                     line-height: 20px;
                     color: #808A98 !important;
                     text-transform: capitalize;
@@ -116,6 +116,9 @@
                     padding: 14px 20px;
                     background-color: #F4F7FC;
                     border-bottom: 4px solid #CFD4DA !important;
+                    @media screen and (min-width: 1439px) {
+                         font-size: 16px;
+                    }
                }
 
                &.active {
@@ -187,6 +190,18 @@
      }
 }
 
+@media screen and (max-width: 1439px) {
+     .vue-tabs {
+          .jobs-wrapper {
+               .jobs-search-wrap {
+                    input[type="search"] {
+                         height: 47px;
+                         width: 300px;
+                    }
+               }
+          }
+     }
+}
 @media screen and (max-width: 1279px) {
      .vue-tabs {
           .nav-tabs {
