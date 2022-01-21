@@ -6,10 +6,10 @@
             </div>
         </div>
         <div class="terms">
-            <div class="mx-auto py-8 sm:py-12 3xl:py-24 container px-5 lg:px-20 2xl:px-28 3xl:px-5">
+            <div class="mx-auto py-8 sm:py-12 3xl:py-24 container px-5 xl:px-20 2xl:px-28 3xl:px-5">
                 <div class="about-content-wrap text-center md:text-left">
                     <h3 class="text-lg md:text-xl leading-20 md:leading-30 text-primary capitalize font-bold mb-3">Privacy Policy</h3>
-                    <h2 class="font-bold text-textColor-500 text-2xl leading-25 md:text-thirty md:leading-40 3xl:text-three 3xl:leading-63 uppercase mb-4">general terms</h2>
+                    <h2 class="font-bold text-textColor-500 text-2xl leading-25 xl:text-thirty xl:leading-40 3xl:text-three 3xl:leading-63 uppercase mb-4">general terms</h2>
                     <p class="text-paraColor text-sm md:text-base leading-25 3xl:leading-30 mb-4">
                         These general terms regulate access and use of the website of Deva Capital Management Company, S.L.U. (www.devacapital.com), as well as the other pages it includes (the “Website”) (the “General Terms”). Users must read these General Terms carefully because they are tacitly accepted upon accessing or using the Website.
                     </p>

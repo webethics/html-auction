@@ -1,6 +1,6 @@
 <template>
-  <div class="create-job mx-auto px-5">
-    <h2 class="flex items-center justify-center font-bold text-six md:text-five lg:text-four xl:text-three 2xl:text-two mt-12 text-lightBlack leading-90">Create Post</h2>
+  <div class="create-job mx-auto px-5 xl:px-20 2xl:px-28 3xl:px-5">
+    <h2 class="flex items-center justify-center font-bold leading-25 md:leading-36 lg:leading-50 xl:leading-63 2xl:leading-70 3xl:leading-90 text-six md:text-five lg:text-four 3xl:text-two mt-12 text-lightBlack">Create Post</h2>
     <div class="wrap-inner rounded-sm border border-blue bg-white p-6 md:p-12 my-6 md:my-12">
       <h2 class="text-lightBlack text-xl font-bold mb-4">Create a Post</h2>
       <form action="">
@@ -63,10 +63,10 @@
           </label>
           <div class="upload-images-wrap flex items-center space-x-2 mt-2">
             <figure class="shadow-xs border border-blue">
-              <img src="../../assets/images/create-job-1.jpg" alt="">
+              <img :src="createJob" alt="">
             </figure>
             <figure class="shadow-xs border border-blue">
-              <img src="../../assets/images/create-job-2.jpg" alt="">
+              <img :src="createJobs" alt="">
             </figure>
           </div>
         </div>
@@ -82,7 +82,7 @@
         </label>
         <label class="block pb-4">
           <figure>
-            <img src="../../assets/images/map.jpg" alt="" />
+            <img :src="map" alt="" />
           </figure>
         </label>
 
@@ -94,10 +94,23 @@
                     <path d="M8.81641 3.3335L13.4831 8.00016L8.81641 12.6668" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                </svg>
           </router-link>
-          <!-- <button class="px-3 xl:px-5 py-3 font-semibold text-md 2xl:text-base bg-primary text-white rounded-sm shadow-sm w-full hover:bg-green duration-500 ease-in-out flex items-center justify-center">
-          </button> -->
         </label>        
       </form>
     </div>   
   </div>
 </template>
+<script>
+import createJob from '../../assets/images/create-job-1.jpg';
+import createJobs from '../../assets/images/create-job-2.jpg';
+import map from '../../assets/images/map.jpg';
+
+export default {
+  data() {
+    return {
+      createJob:createJob,
+      createJobs:createJobs,
+      map:map,
+    }
+  },
+}
+</script>

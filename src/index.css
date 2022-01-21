@@ -18,7 +18,7 @@
 /* Header Css Starts Here */
 .header-logo {
      width: 167px;
-     height: 81px;
+     height: 81px;     
 }
 .header-logo img {
      height: 100%;
@@ -246,6 +246,12 @@ footer .footer-container {border-bottom: 1px solid #C1DCDA;}
      .copyright-menus li:not(:first-child) {
           margin-left: 35px;
       }
+}
+@media screen and (max-width: 1439px) {
+     .header-logo {
+          width: 126px;
+          height: 61px;
+     }
 }
 @media screen and (max-width:992px) {
      /* .services-wrap .services-img {

@@ -29,7 +29,7 @@ export default {
      <div class="job-details mx-auto">
           <div class="container mx-auto">
                <div class="wrap-inner bg-white my-6 md:my-12">
-                    <div class="container mx-auto flex flex-wrap flex-col md:flex-row px-5 lg:px-20 2xl:px-28 3xl:px-5">
+                    <div class="container mx-auto flex flex-wrap flex-col md:flex-row px-5 xl:px-20 2xl:px-28 3xl:px-5">
                          <div class="job-details-left w-full md:w-3/5 mb-4 md:mb-0">
                               <div class="explore-job-outer flex flex-wrap flex-col">
                                    <div class="explore-job-image w-full mb-6">
@@ -84,7 +84,7 @@ export default {
                          </div>
                     </div>
 
-                    <div class="container mx-auto flex flex-wrap mt-4 md:mt-8 lg:mt-12 px-5 lg:px-20 2xl:px-28 3xl:px-5">
+                    <div class="container mx-auto flex flex-wrap mt-4 md:mt-8 lg:mt-12 px-5 xl:px-20 2xl:px-28 3xl:px-5">
                          <div class="job-history w-full rounded-sm">
                               <div class="job-history-head px-4 md:px-8 py-4 md:py-6">
                                    <h2 class="font-bold text-lg lg:text-2xl xl:text-six text-lightBlack leading-30">Client  History</h2>
@@ -116,7 +116,7 @@ export default {
                          </div>
                     </div>
 
-                    <div class="container mx-auto flex flex-wrap mt-12 px-5 lg:px-20 2xl:px-28 3xl:px-5">
+                    <div class="container mx-auto flex flex-wrap mt-12 px-5 xl:px-20 2xl:px-28 3xl:px-5">
                          <div class="client-proposal border border-inputBorder rounded-xs px-5 sm:px-7 py-5 sm:py-10">
                               <h2 class="proposal-title text-primary font-bold text-lg sm:text-xl md:text-2xl lg:text-six leading-30 border-b border-inputBorder mb-6 sm:mb-11 pb-5 text-center sm:text-left">Proposal</h2>
                               <div class="client-proposal-wrap flex flex-wrap flex-col sm:flex-row">

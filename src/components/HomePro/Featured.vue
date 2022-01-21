@@ -1,6 +1,6 @@
 <template>
   <div class="feature-services">
-    <div class="container px-5 mx-auto 2xl:px-28 3xl:px-5">
+    <div class="container px-5 mx-auto xl:px-20 2xl:px-28 3xl:px-5">
     <div class="container bg-featured-services bg-cover bg-fixed mx-auto px-5 sm:px-10 xl:px-20 3xl:px-28 py-8 sm:py-12 3xl:py-24 sm:rounded-md lg:rounded-lg">
       <div class="flex justify-center md:justify-start">
         <h2 class="text-six md:text-five lg:text-four xl:text-three 3xl:text-two font-bold text-white pb-8 sm:pb-12 3xl:pb-24 leading-30 md:leading-40 lg:leading-50 xl:leading-63 3xl:leading-90">

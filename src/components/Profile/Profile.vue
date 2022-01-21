@@ -1,6 +1,6 @@
 <template>
-     <div class="profile bg-inputBorder py-10 lg:py-20 px-5">
-          <div class="container mx-auto lg:px-20 2xl:px-28 3xl:px-5">
+     <div class="profile bg-inputBorder py-10 lg:py-20">
+          <div class="container mx-auto px-5 xl:px-20 2xl:px-28 3xl:px-5">
                <div class="container mx-auto flex flex-wrap px-4 md:px-8 pb-8 sm:pb-12 bg-white rounded container-inner">
                          <div class="flex flex-col md:flex-row items-center justify-between w-full profile-meta-head py-8 relative">
                               <div class="profile-meta-left w-full md:w-2/4 flex items-center md:space-x-6 lg:space-x-10 flex-wrap flex-col md:flex-row text-center md:text-left">

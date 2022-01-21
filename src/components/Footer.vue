@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="container footer-container mx-auto px-5 py-8 3xl:py-12">
+    <div class="container footer-container mx-auto px-5 py-8 3xl:py-12 px-5 xl:px-20 2xl:px-28 3xl:px-5">
       <div
         class="
           flex flex-col
@@ -26,7 +26,7 @@
           <div class="footer-logo-wrap mb-3">
             <a href="./">
               <img
-                src="../assets/images/logo.png"
+                :src="logo"
                 class="footer-logo mx-auto lg:ml-0"
               />
             </a>
@@ -184,7 +184,7 @@
         "
       >
         <ul
-          class="social-icons w-full text-center sm:text-right sm:mt-12 md:pr-6"
+          class="social-icons w-full text-center sm:text-right sm:mt-6 md:mt-12 md:pr-6"
         >
           <li>
             <a
@@ -314,7 +314,7 @@
       </div>
     </div>
 
-    <div class="container mx-auto px-5 py-5 sm:py-8">
+    <div class="container mx-auto px-5 xl:px-20 2xl:px-28 3xl:px-5 py-5 sm:py-8">
       <div
         class="
           flex flex-col
@@ -349,3 +349,14 @@
   </footer>
 </template>
 
+<script>
+import logo from '../assets/images/logo.png';
+
+export default {
+  data() {
+    return {
+      logo:logo
+    }
+  },
+}
+</script>

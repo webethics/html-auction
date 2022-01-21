@@ -1,8 +1,8 @@
 <template>
   <div class="bg-hero-pattern bg-cover bg-bottom relative">
-    <img src="../../assets/images/banner-bars.svg" class="banner-bars banner-art absolute right-0 top-0 sm:bottom-0 my-auto" />
-    <img src="../../assets/images/banner-line.svg" class="banner-line banner-art absolute left-0 top-48 sm:top-16" />
-    <div class="container mx-auto flex px-5 lg:px-20 2xl:px-28 3xl:px-5 py-8 sm:py-12 lg:py-20 3xl:py-24 sm:flex-row flex-col-reverse items-center">
+    <img :src="bannerBars" class="banner-bars banner-art absolute right-0 top-0 sm:bottom-0 my-auto" />
+    <img :src="bannerLine" class="banner-line banner-art absolute left-0 top-48 sm:top-16" />
+    <div class="container mx-auto flex px-5 xl:px-20 2xl:px-28 3xl:px-5 py-8 sm:py-12 lg:py-20 3xl:py-24 sm:flex-row flex-col-reverse items-center">
       <div class="sm:w-1/2 lg:pr-0 3xl:pr-24 sm:pr-8 md-pr-16 flex flex-col sm:items-start sm:text-left items-center text-center">
         <h1 class="banner-title text-lightBlack text-six md:text-five lg:text-four xl:text-three 3xl:text-one mb-2 sm:mb-4 lg:mb-6 xl:mb-8 font-bold leading-30 md:leading-40 lg:leading-50 xl:leading-63 3xl:leading-90">
           <span class="block">Book ANY</span> <span class="text-primary">Professional</span> in seconds.
@@ -18,8 +18,23 @@
       </div>
 
       <div class="w-1/2 mb-10 sm:mb-0">
-        <img class="rounded ml-auto lg:w-3/4 2xl:w-3/4 3xl:w-full" alt="hero" v-bind:src="require('../../assets/images/hero-image.png')" />
+        <img class="rounded ml-auto lg:w-3/4 2xl:w-3/4 3xl:w-full" alt="hero" v-bind:src="heroImage" />
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import bannerBars from "../../assets/images/banner-bars.svg";
+import bannerLine from "../../assets/images/banner-line.svg";
+import heroImage from "../../assets/images/hero-image.png";
+export default {
+  data() {
+    return {
+    bannerBars: bannerBars,
+    bannerLine: bannerLine,
+    heroImage: heroImage
+    };
+  }
+}
+</script>

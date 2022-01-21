@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="contact">
-            <div class="mx-auto py-8 sm:py-12 3xl:py-24 px-5 lg:px-20 2xl:px-28 3xl:px-5 container">
+            <div class="mx-auto py-8 sm:py-12 3xl:py-24 px-5 xl:px-20 2xl:px-28 3xl:px-5 container">
               <div class="contact-wrapper flex flex-wrap">
                 <div class="contact-content-wrap text-center md:text-left w-full md:w-2/4 md:pr-20 lg:pr-40">
                     <h3 class="text-lg md:text-xl leading-20 md:leading-30 text-primary capitalize font-bold mb-3">contact</h3>
@@ -79,7 +79,7 @@
                 </div>
               </div>
             </div>
-            <div class="mx-auto pb-8 sm:pb-12 3xl:pb-24 container px-5 lg:px-20 2xl:px-28 3xl:px-5">
+            <div class="mx-auto pb-8 sm:pb-12 3xl:pb-24 container px-5 xl:px-20 2xl:px-28 3xl:px-5">
               <img :src="contactMap" alt="" />
             </div>
         </div>
